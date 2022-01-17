@@ -6,5 +6,8 @@
     "common",
     "admin",
     "talentsearch"
-  ]
+  ],
+  "dependencies": {
+    "@heroicons/react": "^1.0.5"
+  }
 }
