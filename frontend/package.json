@@ -10,5 +10,12 @@
   "dependencies": {
     "@heroicons/react": "^1.0.5",
     "graphql": "^16.2.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/add": "^3.1.1",
+    "@graphql-codegen/cli": "^2.3.1",
+    "@graphql-codegen/typescript": "^2.4.1",
+    "@graphql-codegen/typescript-operations": "^2.2.2",
+    "@graphql-codegen/typescript-urql": "^3.4.2"
   }
 }
