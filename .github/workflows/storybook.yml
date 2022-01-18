@@ -12,21 +12,21 @@ jobs:
           fetch-depth: 0
 
       - name: "Install & Compile: common"
-        working-directory: common
+        working-directory: frontend/common
         run: |
           npm install
           npm run h2-build
           npm run codegen
 
       - name: "Install & Compile: admin"
-        working-directory: admin
+        working-directory: frontend/admin
         run: |
           npm install
           npm run h2-build
           npm run codegen
 
       - name: "Install & Compile: talentsearch"
-        working-directory: talentsearch
+        working-directory: frontend/talentsearch
         run: |
           npm install
           npm run h2-build
