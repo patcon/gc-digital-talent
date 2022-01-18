@@ -8,6 +8,7 @@
     "talentsearch"
   ],
   "dependencies": {
-    "@heroicons/react": "^1.0.5"
+    "@heroicons/react": "^1.0.5",
+    "graphql": "^16.2.0"
   }
 }
