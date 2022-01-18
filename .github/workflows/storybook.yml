@@ -11,6 +11,11 @@ jobs:
           # Chromatic requires full git history.
           fetch-depth: 0
 
+      - name: "Install & Compile: workspace"
+        working-directory: frontend
+        run: |
+          npm install
+
       - name: "Install & Compile: common"
         working-directory: frontend/common
         run: |
