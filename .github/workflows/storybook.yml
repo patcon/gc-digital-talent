@@ -26,6 +26,7 @@ jobs:
           npm install
           # Work-around until Hydrogen is updated.
           # See: https://github.com/hydrogen-design-system/hydrogen.css/issues/72
+          mkdir -p */node_modules
           ln -s ../../node_modules/@hydrogen-design-system admin/node_modules/.
           ln -s ../../node_modules/@hydrogen-design-system common/node_modules/.
           ln -s ../../node_modules/@hydrogen-design-system talentsearch/node_modules/.
