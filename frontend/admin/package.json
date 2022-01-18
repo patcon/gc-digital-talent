@@ -60,11 +60,6 @@
     "@types/react-select": "^5.0.1",
     "@urql/exchange-auth": "^0.1.7",
     "dotenv": "^10.0.0",
-    "history": "^5.2.0",
-    "lodash": "^4.17.21",
-    "path-browserify": "^1.0.1",
-    "regenerator-runtime": "^0.13.9",
-    "universal-router": "^9.1.0",
-    "urql": "^2.0.6"
+    "regenerator-runtime": "^0.13.9"
   }
 }

@@ -41,13 +41,7 @@
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.14.2"
   },
-  "dependencies": {
-    "history": "^5.0.1",
-    "lodash": "^4.17.21",
-    "path-browserify": "^1.0.1",
-    "universal-router": "^9.1.0",
-    "urql": "^2.0.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/faker": "^5.5.9",
     "@types/react-select": "^5.0.1",
