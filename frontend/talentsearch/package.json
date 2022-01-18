@@ -43,8 +43,6 @@
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-react": "^7.16.7",
-    "@formatjs/cli": "^4.7.1",
-    "@formatjs/ts-transformer": "^3.8.2",
     "@hydrogen-design-system/hydrogen.css": "^1.1.16",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^12.1.2",
