@@ -23,13 +23,13 @@ jobs:
       - name: "Install & Compile: workspace"
         working-directory: frontend
         run: |
-          npm install
           # Work-around until Hydrogen is updated.
           # See: https://github.com/hydrogen-design-system/hydrogen.css/issues/72
           mkdir -p */node_modules
-          ln -s ../../node_modules/@hydrogen-design-system admin/node_modules/.
-          ln -s ../../node_modules/@hydrogen-design-system common/node_modules/.
-          ln -s ../../node_modules/@hydrogen-design-system talentsearch/node_modules/.
+          ln -s ../../node_modules/@hydrogen-design-system admin/node_modules/@hydrogen-design-system
+          ln -s ../../node_modules/@hydrogen-design-system common/node_modules/@hydrogen-design-system
+          ln -s ../../node_modules/@hydrogen-design-system talentsearch/node_modules/@hydrogen-design-system
+          npm install
 
       - name: "Install & Compile: common"
         working-directory: frontend/common
