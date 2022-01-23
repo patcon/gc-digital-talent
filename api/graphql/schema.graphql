@@ -461,6 +461,7 @@ input PoolCandidateFilterBelongsTo {
 
 input CreatePoolCandidateSearchRequestInput {
     fullName: String! @rename(attribute: "full_name")
+    email: Email!
     department: DepartmentBelongsTo!
     jobTitle: String! @rename(attribute: "job_title")
     additionalComments: String @rename(attribute: "additional_comments")
