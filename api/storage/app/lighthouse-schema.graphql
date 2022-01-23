@@ -90,7 +90,6 @@ input CreatePoolCandidateInput {
 
 input CreatePoolCandidateSearchRequestInput {
   fullName: String!
-  email: Email!
   department: DepartmentBelongsTo!
   jobTitle: String!
   additionalComments: String
