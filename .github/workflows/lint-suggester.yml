@@ -42,17 +42,18 @@ jobs:
       - name: "Lint fix: common"
         working-directory: frontend/common
         run: |
-          npm run lint:fix
+          # Swallow errors so can continue to next steps.
+          npm run lint:fix || true
 
       - name: "Lint fix: admin"
         working-directory: frontend/admin
         run: |
-          npm run lint:fix
+          npm run lint:fix || true
 
       - name: "Lint fix: talentsearch"
         working-directory: frontend/talentsearch
         run: |
-          npm run lint:fix
+          npm run lint:fix || true
 
       - name: suggester / eslint
         uses: reviewdog/action-suggester@v1.4.0
