@@ -59,8 +59,11 @@ jobs:
         uses: reviewdog/action-suggester@v1.4.0
         with:
           tool_name: eslint
-          # Will make suggestions for ALL files, not just changed ones.
-          filter_mode: nofilter
+          # Filter mode chooses how discovered issues are treated.
+          # On GitHub, inline review comments can only be made on lines within
+          # the "diff context", not anywhere in file. So suggestions can only be there.
+          # See: https://github.com/reviewdog/reviewdog#filter-mode
+          filter_mode: diff_context
 
       # Allows SSH access into CI environment for up to 1h.
       # Use `touch ~/continue` with session to end each one.
