@@ -10,6 +10,8 @@ import {
 } from "../api/generated";
 import { getOrThrowError } from "../helpers/util";
 
+const foo =  'bar';
+
 export const salaryRanges = {
   [SalaryRange["50_59K"]]: "$50,000 - $59,000",
   [SalaryRange["60_69K"]]: "$60,000 - $69,000",
