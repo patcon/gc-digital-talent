@@ -114,39 +114,44 @@ jobs:
           npm run codegen --workspace talentsearch
           npm run codegen --workspace admin
 
+        # We set `fail_on_error: true` below. This ensure that workflow check
+        # will show as failed in UI.
+        #
+        # We set these steps to run `always()`, even on failure, so that steps
+        # finding issues (failing) won't prevent following steps from running.
+
       - name: suggester / eslint / common
         uses: reviewdog/action-eslint@v1.15.0
+        if: ${{ always() }}
         with:
           workdir: frontend/common
           reporter: github-pr-review
+          fail_on_error: true
           # Filter mode chooses how discovered issues are treated.
           # On GitHub, inline review comments can only be made on lines within
-          # the "diff context", not anywhere in file. So suggestions can only be there.
+          # the "diff context", not anywhere in file. Any issues found outside
+          # diff context will be accounted for in annotations.
           # See: https://github.com/reviewdog/reviewdog#filter-mode
           filter_mode: nofilter
           eslint_flags: 'src/'
 
       - name: suggester / eslint / admin
         uses: reviewdog/action-eslint@v1.15.0
+        if: ${{ always() }}
         with:
           workdir: frontend/admin
           reporter: github-pr-review
-          # Filter mode chooses how discovered issues are treated.
-          # On GitHub, inline review comments can only be made on lines within
-          # the "diff context", not anywhere in file. So suggestions can only be there.
-          # See: https://github.com/reviewdog/reviewdog#filter-mode
+          fail_on_error: true
           filter_mode: nofilter
           eslint_flags: 'resources/js'
 
       - name: suggester / eslint / talentsearch
         uses: reviewdog/action-eslint@v1.15.0
+        if: ${{ always() }}
         with:
           workdir: frontend/talentsearch
           reporter: github-pr-review
-          # Filter mode chooses how discovered issues are treated.
-          # On GitHub, inline review comments can only be made on lines within
-          # the "diff context", not anywhere in file. So suggestions can only be there.
-          # See: https://github.com/reviewdog/reviewdog#filter-mode
+          fail_on_error: true
           filter_mode: nofilter
           eslint_flags: 'resources/js'
 
