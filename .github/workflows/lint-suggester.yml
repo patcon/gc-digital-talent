@@ -110,8 +110,11 @@ jobs:
           (cd admin/node_modules && ln -s ../../node_modules/@hydrogen-design-system .)
           (cd common/node_modules && ln -s ../../node_modules/@hydrogen-design-system .)
           (cd talentsearch/node_modules && ln -s ../../node_modules/@hydrogen-design-system .)
+          npm run codegen --workspace common
+          npm run codegen --workspace talentsearch
+          npm run codegen --workspace admin
 
-      - name: suggester / eslint
+      - name: suggester / eslint / common
         uses: reviewdog/action-eslint@v1.15.0
         with:
           workdir: frontend/common
@@ -122,6 +125,30 @@ jobs:
           # See: https://github.com/reviewdog/reviewdog#filter-mode
           filter_mode: nofilter
           eslint_flags: 'src/'
+
+      - name: suggester / eslint / admin
+        uses: reviewdog/action-eslint@v1.15.0
+        with:
+          workdir: frontend/admin
+          reporter: github-pr-review
+          # Filter mode chooses how discovered issues are treated.
+          # On GitHub, inline review comments can only be made on lines within
+          # the "diff context", not anywhere in file. So suggestions can only be there.
+          # See: https://github.com/reviewdog/reviewdog#filter-mode
+          filter_mode: nofilter
+          eslint_flags: 'resources/js'
+
+      - name: suggester / eslint / talentsearch
+        uses: reviewdog/action-eslint@v1.15.0
+        with:
+          workdir: frontend/talentsearch
+          reporter: github-pr-review
+          # Filter mode chooses how discovered issues are treated.
+          # On GitHub, inline review comments can only be made on lines within
+          # the "diff context", not anywhere in file. So suggestions can only be there.
+          # See: https://github.com/reviewdog/reviewdog#filter-mode
+          filter_mode: nofilter
+          eslint_flags: 'resources/js'
 
       # Allows SSH access into CI environment for up to 1h.
       # Use `touch ~/continue` with session to end each one.
