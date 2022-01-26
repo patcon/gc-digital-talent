@@ -111,22 +111,6 @@ jobs:
           (cd common/node_modules && ln -s ../../node_modules/@hydrogen-design-system .)
           (cd talentsearch/node_modules && ln -s ../../node_modules/@hydrogen-design-system .)
 
-      - name: "Lint fix: common"
-        working-directory: frontend/common
-        run: |
-          # Swallow errors so can continue to next steps.
-          npm run lint:fix || true
-
-      - name: "Lint fix: admin"
-        working-directory: frontend/admin
-        run: |
-          npm run lint:fix || true
-
-      - name: "Lint fix: talentsearch"
-        working-directory: frontend/talentsearch
-        run: |
-          npm run lint:fix || true
-
       - name: suggester / eslint
         uses: reviewdog/action-eslint@v1.15.0
         with:
