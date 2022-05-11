@@ -54,6 +54,43 @@ services:
       - ./frontend:/var/www/html/frontend
       - ./tc-report:/var/www/html/tc-report
 
+  # See: https://github.com/navikt/mock-oauth2-server#standalone-server
+  mock-auth:
+    image: ghcr.io/navikt/mock-oauth2-server:0.4.7
+    ports:
+      - 8081:8081
+    hostname: auth.talent.canada.test
+    environment:
+      SERVER_PORT: 8081
+      JSON_CONFIG: |
+        {
+          "interactiveLogin": true,
+          "tokenCallbacks": [
+            {
+              "issuerId": "oxauth",
+              "tokenExpiry": 120,
+              "requestMappings": [
+                {
+                  "requestParam": "client_id",
+                  "match": "*",
+                  "claims": {
+                    "server_type": "mock",
+                    "aud": "01234567-89ab-cdef-0123-456789abcdef",
+                    "sub": "01234567-89ab-cdef-0123-456789abcdef",
+                    "code": "01234567-89ab-cdef-0123-456789abcdef",
+                    "scope": [
+                      "openid",
+                      "offline_access"
+                    ],
+                    "token_type": "bearer",
+                    "client_id": "01234567-89ab-cdef-0123-456789abcdef"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+
 volumes:
   pgdata:
   maintenancedata:
