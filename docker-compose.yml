@@ -62,36 +62,15 @@ services:
     hostname: auth.talent.canada.test
     environment:
       SERVER_PORT: 8081
-      JSON_CONFIG: |
-        {
-          "interactiveLogin": true,
-          "tokenCallbacks": [
-            {
-              "issuerId": "oxauth",
-              "tokenExpiry": 120,
-              "requestMappings": [
-                {
-                  "requestParam": "client_id",
-                  # This should be "myLocalDevelopment" according to
-                  # .env.sample, but we'll be forgiving to avoid gotchas.
-                  # "match": "myLocalDevelopment",
-                  "match": "*",
-                  "claims": {
-                    # "sub": "<whatever is typed into mock login form>",
-                    "aud": "01234567-89ab-cdef-0123-456789abcdef",
-                    "code": "01234567-89ab-cdef-0123-456789abcdef",
-                    "scope": [
-                      "openid",
-                      "offline_access"
-                    ],
-                    "token_type": "bearer",
-                    "client_id": "01234567-89ab-cdef-0123-456789abcdef"
-                  }
-                }
-              ]
-            }
-          ]
-        }
+      # Things to note in config:
+      # - we mock a response but leave out "sub", so that value entered in fake
+      #   login form will be used.
+      # - we match on any client_id ("*") to avoid gotchas of changing `.env`
+      #   settings when working between local mock server and remote UAT servers.
+      # TODO: Consider setting specific client_id to match value in `.env.sample`.
+      JSON_CONFIG_PATH: /app/conf/mock-auth-server.json
+    volumes:
+      - ./infrastructure/conf:/app/conf
 
 volumes:
   pgdata:
