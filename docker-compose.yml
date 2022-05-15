@@ -76,7 +76,7 @@ services:
                   "claims": {
                     "server_type": "mock",
                     "aud": "01234567-89ab-cdef-0123-456789abcdef",
-                    "sub": "01234567-89ab-cdef-0123-456789abcdef",
+                    "sub": "admin@test.com",
                     "code": "01234567-89ab-cdef-0123-456789abcdef",
                     "scope": [
                       "openid",
