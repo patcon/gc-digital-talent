@@ -72,11 +72,13 @@ services:
               "requestMappings": [
                 {
                   "requestParam": "client_id",
+                  # This should be "myLocalDevelopment" according to
+                  # .env.sample, but we'll be forgiving to avoid gotchas.
+                  # "match": "myLocalDevelopment",
                   "match": "*",
                   "claims": {
-                    "server_type": "mock",
+                    # "sub": "<whatever is typed into mock login form>",
                     "aud": "01234567-89ab-cdef-0123-456789abcdef",
-                    "sub": "admin@test.com",
                     "code": "01234567-89ab-cdef-0123-456789abcdef",
                     "scope": [
                       "openid",
