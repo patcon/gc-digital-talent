@@ -21,7 +21,7 @@ import { AuthorizationContext } from "../AuthorizationContainer";
 import { useAdminRoutes } from "../../adminRoutes";
 import { Role } from "../../api/generated";
 
-interface SideMenuProps {
+export interface SideMenuProps {
   isOpen: boolean;
   onToggle: () => void;
   onDismiss: () => void;
