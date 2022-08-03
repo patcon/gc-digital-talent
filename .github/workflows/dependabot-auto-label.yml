@@ -2,7 +2,7 @@
 name: Dependabot auto-label
 # Can't use `pull_request` due to GITHUB_TOKEN and security
 # See: https://github.com/dependabot/dependabot-core/issues/3253#issuecomment-852541544
-on: pull_request_target
+on: pull_request
 
 permissions:
   pull-requests: write
