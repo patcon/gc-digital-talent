@@ -10,55 +10,45 @@ const adminRoutes = (lang: string) => {
   return {
     home,
 
-    dashboard: (): string => path.join(home(), "dashboard"),
+    dashboard: () => `${home()}/dashboard`,
 
-    cmoAssetTable: (): string => path.join(home(), "cmo-assets"),
-    cmoAssetCreate: (): string => path.join(home(), "cmo-assets", "create"),
-    cmoAssetUpdate: (id: string): string =>
-      path.join(home(), "cmo-assets", id, "edit"),
+    cmoAssetTable: () => `${home()}/cmo-assets`,
+    cmoAssetCreate: () => `${home()}/cmo-assets/create`,
+    cmoAssetUpdate: (id = ":id") => `${home()}/cmo-assets/${id}/edit`,
 
-    poolTable: (): string => path.join(home(), "pools"),
-    poolCreate: (): string => path.join(home(), "pools", "create"),
-    poolEdit: (id: string): string => path.join(home(), "pools", id, "edit"),
-    poolView: (id: string): string => path.join(home(), "pools", id),
+    poolTable: () => `${home()}/pools`,
+    poolCreate: () => `${home()}/pools/create`,
+    poolEdit: (id = ":id") => `${home()}/pools/${id}/edit`,
+    poolView: (id = ":id") => `${home()}/pools/${id}`,
 
-    poolCandidateTable: (poolId: string): string =>
-      path.join(home(), "pools", poolId, "pool-candidates"),
-    candidateProfile: (): string => path.join(home(), "candidate-profile"),
+    poolCandidateTable: (id = ":id") => `${home()}/pools/${id}/pool-candidates`,
+    candidateProfile: () => `${home()}/candidate-profile`,
 
-    userTable: (): string => path.join(home(), "users"),
-    userCreate: (): string => path.join(home(), "users", "create"),
-    userUpdate: (id: string): string => path.join(home(), "users", id, "edit"),
-    userView: (id: string): string => path.join(home(), "users", id),
+    userTable: () => `${home()}/users`,
+    userCreate: () => `${home()}/users/create`,
+    userUpdate: (id = ":id") => `${home()}/users/${id}/edit`,
+    userView: (id = ":id") => `${home()}/users/${id}`,
 
-    searchRequestTable: (): string => path.join(home(), "talent-requests"),
-    searchRequestView: (id: string): string =>
-      path.join(home(), "talent-requests", id),
+    searchRequestTable: () => `${home()}/talent-requests`,
+    searchRequestView: (id = ":id") => `${home()}/talent-requests/${id}`,
 
-    classificationTable: (): string =>
-      path.join(home(), "settings", "classifications"),
-    classificationCreate: (): string =>
-      path.join(home(), "settings", "classifications", "create"),
-    classificationUpdate: (id: string): string =>
-      path.join(home(), "settings", "classifications", id, "edit"),
+    classificationTable: () => `${home()}/settings/classifications`,
+    classificationCreate: () => `${home()}/settings/classifications/create`,
+    classificationUpdate: (id = ":id") =>
+      `${home()}/settings/classifications/${id}/edit`,
 
-    skillTable: (): string => path.join(home(), "settings", "skills"),
-    skillCreate: (): string =>
-      path.join(home(), "settings", "skills", "create"),
-    skillUpdate: (id: string): string =>
-      path.join(home(), "settings", "skills", id, "edit"),
-    skillFamilyTable: (): string =>
-      path.join(home(), "settings", "skills", "families"),
-    skillFamilyCreate: (): string =>
-      path.join(home(), "settings", "skills", "families", "create"),
-    skillFamilyUpdate: (id: string): string =>
-      path.join(home(), "settings", "skills", "families", id, "edit"),
+    skillTable: () => `${home()}/settings/skills`,
+    skillCreate: () => path.join(home(), "settings", "skills", "create"),
+    skillUpdate: (id = ":id") => `${home()}/settings/skills/${id}/edit`,
+    skillFamilyTable: () => `${home()}/settings/skills/families`,
+    skillFamilyCreate: () => `${home()}/settings/skills/families/create"`,
+    skillFamilyUpdate: (id = ":id") =>
+      `${home()}/settings/skills/families/${id}/edit`,
 
-    departmentTable: (): string => path.join(home(), "settings", "departments"),
-    departmentCreate: (): string =>
-      path.join(home(), "settings", "departments", "create"),
-    departmentUpdate: (id: string): string =>
-      path.join(home(), "settings", "departments", id, "edit"),
+    departmentTable: () => `${home()}/settings/departments`,
+    departmentCreate: () => `${home()}/settings/departments/create`,
+    departmentUpdate: (id = ":id") =>
+      `${home()}/settings/departments/${id}/edit`,
   };
 };
 

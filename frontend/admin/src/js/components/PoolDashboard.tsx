@@ -132,7 +132,7 @@ const routes = (
     }),
   },
   {
-    path: paths.userUpdate(":id"),
+    path: paths.userUpdate(),
     action: ({ params }) => ({
       component: <UpdateUser userId={params.id as string} />,
       authorizedRoles: [Role.Admin],
@@ -183,14 +183,14 @@ const routes = (
     }),
   },
   {
-    path: paths.cmoAssetUpdate(":id"),
+    path: paths.cmoAssetUpdate(),
     action: ({ params }) => ({
       component: <UpdateCmoAsset cmoAssetId={params.id as string} />,
       authorizedRoles: [Role.Admin],
     }),
   },
   {
-    path: paths.poolCandidateTable(":id"),
+    path: paths.poolCandidateTable(),
     action: ({ params }) => ({
       component: <PoolCandidatePage poolId={params.id as string} />,
       authorizedRoles: [Role.Admin],
@@ -216,7 +216,7 @@ const routes = (
     }),
   },
   {
-    path: paths.poolEdit(":id"),
+    path: paths.poolEdit(),
     action: ({ params }) => ({
       component: checkFeatureFlag("FEATURE_DIRECTINTAKE") ? (
         <EditPool poolId={params.id as string} />
@@ -228,7 +228,7 @@ const routes = (
     }),
   },
   {
-    path: paths.poolView(":id"),
+    path: paths.poolView(),
     action: ({ params }) => ({
       component: <ViewPoolPage poolId={params.id as string} />,
       authorizedRoles: [Role.Admin],
@@ -249,7 +249,7 @@ const routes = (
     }),
   },
   {
-    path: paths.departmentUpdate(":id"),
+    path: paths.departmentUpdate(),
     action: ({ params }) => ({
       component: <UpdateDepartment departmentId={params.id as string} />,
       authorizedRoles: [Role.Admin],
@@ -270,7 +270,7 @@ const routes = (
     }),
   },
   {
-    path: paths.skillFamilyUpdate(":id"),
+    path: paths.skillFamilyUpdate(),
     action: ({ params }) => ({
       component: <UpdateSkillFamily skillFamilyId={params.id as string} />,
       authorizedRoles: [Role.Admin],
@@ -291,7 +291,7 @@ const routes = (
     }),
   },
   {
-    path: paths.skillUpdate(":id"),
+    path: paths.skillUpdate(),
     action: ({ params }) => ({
       component: <UpdateSkill skillId={params.id as string} />,
       authorizedRoles: [Role.Admin],
@@ -305,7 +305,7 @@ const routes = (
     }),
   },
   {
-    path: paths.searchRequestView(":id"),
+    path: paths.searchRequestView(),
     action: ({ params }) => ({
       component: (
         <SingleSearchRequestPage searchRequestId={params.id as string} />
