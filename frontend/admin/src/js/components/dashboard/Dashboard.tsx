@@ -1,7 +1,5 @@
-import React, { useRef } from "react";
+import React from "react";
 import { useIntl } from "react-intl";
-import { useRouter, RouterResult } from "@common/helpers/router";
-import { Routes } from "universal-router";
 import { Button } from "@common/components";
 import NotFound from "@common/components/NotFound";
 import Header from "@common/components/Header";
@@ -11,6 +9,7 @@ import { SideMenuContentWrapper } from "@common/components/SideMenu";
 
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import NotAuthorized from "@common/components/NotAuthorized";
+import { Outlet } from "react-router-dom";
 import AdminSideMenu from "../menu/AdminSideMenu";
 import { ADMIN_APP_DIR } from "../../adminConstants";
 
@@ -91,22 +90,10 @@ const OpenMenuButton: React.FC<OpenMenuButtonProps> = ({
   </div>
 );
 
-interface DashboardProps {
-  contentRoutes: Routes<RouterResult>;
-}
-
-const Dashboard: React.FC<DashboardProps> = ({ contentRoutes }) => {
+const Dashboard = () => {
   const isSmallScreen = useIsSmallScreen();
   const [isMenuOpen, setMenuOpen] = React.useState(!isSmallScreen);
   const intl = useIntl();
-  // stabilize component that will not change during life of app, avoid render loops in router
-  const notFoundComponent = useRef(<AdminNotFound />);
-  const notAuthorizedComponent = useRef(<AdminNotAuthorized />);
-  const content = useRouter(
-    contentRoutes,
-    notFoundComponent.current,
-    notAuthorizedComponent.current,
-  );
 
   const handleMenuToggle = () => {
     setMenuOpen(!isMenuOpen);
@@ -144,7 +131,7 @@ const Dashboard: React.FC<DashboardProps> = ({ contentRoutes }) => {
               data-h2-flex-grow="base(1)"
               data-h2-background-color="base(dt-gray.15)"
             >
-              {content}
+              <Outlet />
             </main>
             <Footer baseUrl={ADMIN_APP_DIR} width="full" />
           </div>

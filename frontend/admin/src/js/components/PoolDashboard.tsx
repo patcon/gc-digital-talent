@@ -421,7 +421,7 @@ export const PoolDashboard: React.FC = () => {
   const intl = useIntl();
   return (
     <Pending fetching={false}>
-      <Dashboard contentRoutes={routes(paths, loggedIn)} />
+      <Dashboard />
       <Helmet>
         <html lang={getLocale(intl)} data-h2 />
       </Helmet>
