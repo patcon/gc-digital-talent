@@ -178,8 +178,9 @@ const App = () => {
             </Route>
 
             <Route path="pools">
+              <Route index element={<PoolPage />} />
               {/* eslint-disable-next-line prettier/prettier */}
-              <Route index element={
+              <Route path=":poolId" element={
                   checkFeatureFlag("FEATURE_DIRECTINTAKE") ? (
                     <ViewPool />
                   ) : (
