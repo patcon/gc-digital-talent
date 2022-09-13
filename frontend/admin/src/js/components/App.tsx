@@ -25,6 +25,17 @@ const CreateUser = React.lazy(() => import("./user/CreateUser"));
 const UpdateUser = React.lazy(() => import("./user/UpdateUser"));
 const ViewUser = React.lazy(() => import("./user/ViewUser"));
 
+/** Classifications */
+const ClassificationPage = React.lazy(
+  () => import("./classification/ClassificationPage"),
+);
+const CreateClassification = React.lazy(
+  () => import("./classification/CreateClassification"),
+);
+const UpdateClassification = React.lazy(
+  () => import("./classification/UpdateClassification"),
+);
+
 const useAuth = () => {
   return {
     ...React.useContext(AuthenticationContext),
@@ -41,7 +52,7 @@ const RequireAuth = ({ allowedRoles }: RequireAuthProps) => {
 
   /* eslint-disable prettier/prettier */
   // eslint-disable-next-line no-nested-ternary
-  return isLoaded && loggedInUserRoles?.find((role) => allowedRoles.includes(role))
+  return isLoaded && loggedInUserRoles?.find((role) => allowedRoles.includes(role as Role))
     ? <Outlet />
     : loggedIn
       ? <Navigate to={`${paths.home()}/unauthorized`} replace />
@@ -65,6 +76,18 @@ const App = () => {
             <Route path="users">
               <Route index element={<UserPage />} />
               <Route path="create" element={<CreateUser />} />
+              <Route path=":userId" element={<ViewUser />} />
+              <Route path=":userId/edit" element={<UpdateUser />} />
+            </Route>
+            <Route path="settings">
+              <Route path="classifications">
+                <Route index element={<ClassificationPage />} />
+                <Route path="create" element={<CreateClassification />} />
+                <Route
+                  path=":classificationId/edit"
+                  element={<UpdateClassification />}
+                />
+              </Route>
             </Route>
           </Route>
 

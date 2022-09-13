@@ -4,13 +4,13 @@ import { FormProvider, SubmitHandler, useForm } from "react-hook-form";
 import pick from "lodash/pick";
 import { toast } from "react-toastify";
 import { Select, Submit, Input, MultiSelect } from "@common/components/form";
-import { navigate } from "@common/helpers/router";
 import { enumToOptions } from "@common/helpers/formUtils";
 import { errorMessages, commonMessages } from "@common/messages";
 import { getLanguage, getRole } from "@common/constants/localizedConstants";
 import { emptyToNull } from "@common/helpers/util";
 import NotFound from "@common/components/NotFound";
 import Pending from "@common/components/Pending";
+import { useNavigate, useParams } from "react-router-dom";
 import { useAdminRoutes } from "../../adminRoutes";
 import {
   Language,
@@ -48,6 +48,7 @@ export const UpdateUserForm: React.FunctionComponent<UpdateUserFormProps> = ({
 }) => {
   const intl = useIntl();
   const paths = useAdminRoutes();
+  const navigate = useNavigate();
 
   const formValuesToSubmitData = (
     values: FormValues,
@@ -225,12 +226,12 @@ export const UpdateUserForm: React.FunctionComponent<UpdateUserFormProps> = ({
   );
 };
 
-const UpdateUser: React.FunctionComponent<{ userId: string }> = ({
-  userId,
-}) => {
+const UpdateUser = () => {
   const intl = useIntl();
+  const { userId } = useParams();
+
   const [{ data: userData, fetching, error }] = useUserQuery({
-    variables: { id: userId },
+    variables: { id: userId as string },
   });
 
   const [, executeMutation] = useUpdateUserAsAdminMutation();

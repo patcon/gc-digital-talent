@@ -4,8 +4,8 @@ import { toast } from "react-toastify";
 import { FormProvider, SubmitHandler, useForm } from "react-hook-form";
 import { useIntl } from "react-intl";
 import { Input, Select, Submit } from "@common/components/form";
-import { navigate } from "@common/helpers/router";
 import { errorMessages } from "@common/messages";
+import { useNavigate } from "react-router-dom";
 import {
   CreateClassificationInput,
   useCreateClassificationMutation,
@@ -23,6 +23,7 @@ export const CreateClassificationForm: React.FunctionComponent<
 > = ({ handleCreateClassification }) => {
   const intl = useIntl();
   const paths = useAdminRoutes();
+  const navigate = useNavigate();
   const methods = useForm<FormValues>();
   const { handleSubmit, watch } = methods;
   const watchMinSalary = watch("minSalary");

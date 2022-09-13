@@ -5,10 +5,10 @@ import { FormProvider, SubmitHandler, useForm } from "react-hook-form";
 import { useIntl } from "react-intl";
 import { toast } from "react-toastify";
 import { Input, Select, Submit } from "@common/components/form";
-import { navigate } from "@common/helpers/router";
 import { errorMessages, commonMessages } from "@common/messages";
 import Pending from "@common/components/Pending";
 import NotFound from "@common/components/NotFound";
+import { useNavigate, useParams } from "react-router-dom";
 import { useAdminRoutes } from "../../adminRoutes";
 import {
   Classification,
@@ -30,6 +30,7 @@ interface UpdateClassificationFormProps {
 export const UpdateClassificationForm: React.FunctionComponent<
   UpdateClassificationFormProps
 > = ({ initialClassification, handleUpdateClassification }) => {
+  const navigate = useNavigate();
   const intl = useIntl();
   const paths = useAdminRoutes();
   const methods = useForm<FormValues>({
@@ -204,13 +205,12 @@ export const UpdateClassificationForm: React.FunctionComponent<
   );
 };
 
-const UpdateClassification: React.FunctionComponent<{
-  classificationId: string;
-}> = ({ classificationId }) => {
+const UpdateClassification = () => {
+  const { classificationId } = useParams();
   const intl = useIntl();
   const [{ data: classificationData, fetching, error }] =
     useGetClassificationQuery({
-      variables: { id: classificationId },
+      variables: { id: classificationId as string },
     });
 
   const [, executeMutation] = useUpdateClassificationMutation();

@@ -16,12 +16,14 @@ import Pending from "@common/components/Pending";
 import NotFound from "@common/components/NotFound";
 import { isEmpty } from "lodash";
 import Heading from "@common/components/Heading";
+import { useParams } from "react-router-dom";
 import { useAdminRoutes } from "../../adminRoutes";
 import { User, useUserQuery } from "../../api/generated";
 import DashboardContentContainer from "../DashboardContentContainer";
 import UserProfileApi from "./UserProfile";
 import GeneralInfoTabApi from "./GeneralInformationTab/GeneralInformationTab";
 import UserProfilePrintButton from "./UserProfilePrintButton";
+import { AdminNotFound } from "../dashboard/Dashboard";
 
 interface ViewUserPageProps {
   user: User;
@@ -129,14 +131,12 @@ export const ViewUserPage: React.FC<ViewUserPageProps> = ({ user }) => {
   );
 };
 
-interface ViewUserProps {
-  userId: string;
-}
-
-const ViewUser: React.FC<ViewUserProps> = ({ userId }) => {
+const ViewUser = () => {
   const intl = useIntl();
+  const { userId } = useParams();
+
   const [{ data, fetching, error }] = useUserQuery({
-    variables: { id: userId },
+    variables: { id: userId as string },
   });
 
   return (
