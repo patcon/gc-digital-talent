@@ -1,9 +1,11 @@
 import React from "react";
 import { useIntl } from "react-intl";
+import { useParams } from "react-router-dom";
 import { PoolCandidatesTableApi } from "./PoolCandidatesTable";
 
-export const PoolCandidatePage: React.FC<{ poolId: string }> = ({ poolId }) => {
+export const PoolCandidatePage = () => {
   const intl = useIntl();
+  const { poolId } = useParams();
   return (
     <div>
       <header
@@ -30,7 +32,7 @@ export const PoolCandidatePage: React.FC<{ poolId: string }> = ({ poolId }) => {
           </div>
         </div>
       </header>
-      <PoolCandidatesTableApi poolId={poolId} />
+      <PoolCandidatesTableApi poolId={poolId as string} />
     </div>
   );
 };

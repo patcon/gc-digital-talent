@@ -124,14 +124,11 @@ export const ViewPoolPage: React.FC<ViewPoolPageProps> = ({ pool }) => {
   );
 };
 
-interface ViewPoolProps {
-  poolId: string;
-}
-
-const ViewPool: React.FC<ViewPoolProps> = ({ poolId }) => {
+const ViewPool = () => {
   const intl = useIntl();
+  const { poolId } = useParams();
   const [{ data, fetching, error }] = useGetPoolQuery({
-    variables: { id: poolId },
+    variables: { id: poolId as string },
   });
 
   return (

@@ -30,6 +30,7 @@ import {
   getLanguageRequirement,
   getSecurityClearance,
 } from "@common/constants/localizedConstants";
+import { useParams } from "react-router-dom";
 import { useAdminRoutes } from "../../adminRoutes";
 import {
   SkillCategory,
@@ -687,14 +688,11 @@ export const ViewPoolPage = ({ pool }: ViewPoolPageProps): JSX.Element => {
   );
 };
 
-interface ViewPoolProps {
-  poolId: string;
-}
-
-const ViewPool = ({ poolId }: ViewPoolProps) => {
+const ViewPool = () => {
   const intl = useIntl();
+  const { poolId } = useParams();
   const [{ data, fetching, error }] = useGetPoolAdvertisementQuery({
-    variables: { id: poolId },
+    variables: { id: poolId as string },
   });
 
   return (

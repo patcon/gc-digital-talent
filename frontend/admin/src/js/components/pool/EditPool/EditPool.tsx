@@ -11,6 +11,7 @@ import { Squares2X2Icon } from "@heroicons/react/24/outline";
 import Breadcrumbs, { BreadcrumbsProps } from "@common/components/Breadcrumbs";
 import TableOfContents from "@common/components/TableOfContents";
 import { notEmpty } from "@common/helpers/util";
+import { useParams } from "react-router-dom";
 import {
   PoolAdvertisement,
   Scalars,
@@ -306,14 +307,11 @@ export const EditPoolForm = ({
   );
 };
 
-interface EditPoolProps {
-  poolId: Scalars["ID"];
-}
-
-export const EditPool = ({ poolId }: EditPoolProps) => {
+export const EditPool = () => {
   const intl = useIntl();
+  const { poolId } = useParams();
   const [{ data, fetching, error }] = useGetEditPoolDataQuery({
-    variables: { poolId },
+    variables: { poolId: poolId as string },
   });
 
   const { isFetching, mutations } = useMutations();

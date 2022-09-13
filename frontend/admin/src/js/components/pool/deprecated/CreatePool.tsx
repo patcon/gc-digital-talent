@@ -11,7 +11,6 @@ import {
 } from "@common/components/form";
 import { getLocale } from "@common/helpers/localize";
 import { notEmpty } from "@common/helpers/util";
-import { navigate } from "@common/helpers/router";
 import { errorMessages } from "@common/messages";
 import { keyStringRegex } from "@common/constants/regularExpressions";
 import { enumToOptions } from "@common/helpers/formUtils";
@@ -21,6 +20,7 @@ import {
   OperationalRequirementV2,
 } from "@common/constants/localizedConstants";
 import Pending from "@common/components/Pending";
+import { useNavigate } from "react-router-dom";
 import { useAdminRoutes } from "../../../adminRoutes";
 import {
   Classification,
@@ -68,6 +68,7 @@ export const CreatePoolForm: React.FunctionComponent<CreatePoolFormProps> = ({
   handleCreatePool,
 }) => {
   const intl = useIntl();
+  const navigate = useNavigate();
   const locale = getLocale(intl);
   const paths = useAdminRoutes();
   const methods = useForm<FormValues>();

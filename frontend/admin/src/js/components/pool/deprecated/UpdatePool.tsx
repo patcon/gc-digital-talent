@@ -13,7 +13,6 @@ import {
 import { notEmpty } from "@common/helpers/util";
 import { enumToOptions, unpackIds } from "@common/helpers/formUtils";
 import { getLocale } from "@common/helpers/localize";
-import { navigate } from "@common/helpers/router";
 import { errorMessages, commonMessages } from "@common/messages";
 import {
   getOperationalRequirement,
@@ -22,6 +21,7 @@ import {
 } from "@common/constants/localizedConstants";
 import Pending from "@common/components/Pending";
 import NotFound from "@common/components/NotFound";
+import { useNavigate, useParams } from "react-router-dom";
 import { useAdminRoutes } from "../../../adminRoutes";
 import {
   Classification,
@@ -67,6 +67,7 @@ export const UpdatePoolForm: React.FunctionComponent<UpdatePoolFormProps> = ({
   handleUpdatePool,
 }) => {
   const intl = useIntl();
+  const navigate = useNavigate();
   const locale = getLocale(intl);
   const paths = useAdminRoutes();
   const dataToFormValues = (
@@ -373,12 +374,11 @@ export const UpdatePoolForm: React.FunctionComponent<UpdatePoolFormProps> = ({
   );
 };
 
-const UpdatePool: React.FunctionComponent<{
-  poolId: string;
-}> = ({ poolId }) => {
+const UpdatePool = () => {
   const intl = useIntl();
+  const { poolId } = useParams();
   const [lookupResult] = useGetUpdatePoolDataQuery({
-    variables: { id: poolId },
+    variables: { id: poolId as string },
   });
   const { data: lookupData, fetching, error } = lookupResult;
   const classifications: Classification[] | [] =

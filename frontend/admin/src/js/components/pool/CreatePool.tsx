@@ -4,7 +4,6 @@ import { useIntl } from "react-intl";
 import { toast } from "react-toastify";
 import { Input, Select, Submit } from "@common/components/form";
 import { unpackMaybes } from "@common/helpers/formUtils";
-import { navigate } from "@common/helpers/router";
 import { errorMessages } from "@common/messages";
 import { getGenericJobTitlesWithClassification } from "@common/constants/localizedConstants";
 import Pending from "@common/components/Pending";
@@ -15,6 +14,7 @@ import Breadcrumbs, {
 import { Squares2X2Icon } from "@heroicons/react/24/outline";
 import Link from "@common/components/Link/Link";
 import { getLocalizedName } from "@common/helpers/localize";
+import { useNavigate } from "react-router-dom";
 import { useAdminRoutes } from "../../adminRoutes";
 import {
   CreatePoolAdvertisementInput,
@@ -56,6 +56,7 @@ export const CreatePoolForm: React.FunctionComponent<CreatePoolFormProps> = ({
   handleCreatePool,
 }) => {
   const intl = useIntl();
+  const navigate = useNavigate();
   const paths = useAdminRoutes();
   const methods = useForm<FormValues>();
   const { handleSubmit } = methods;

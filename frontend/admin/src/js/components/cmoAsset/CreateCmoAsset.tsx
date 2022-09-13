@@ -3,9 +3,9 @@ import { useIntl } from "react-intl";
 import { FormProvider, SubmitHandler, useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import { Input, Submit, TextArea } from "@common/components/form";
-import { navigate } from "@common/helpers/router";
 import { errorMessages } from "@common/messages";
 import { keyStringRegex } from "@common/constants/regularExpressions";
+import { useNavigate } from "react-router-dom";
 import { useAdminRoutes } from "../../adminRoutes";
 import {
   CreateCmoAssetInput,
@@ -22,6 +22,7 @@ export const CreateCmoAssetForm: React.FunctionComponent<
   CreateCmoAssetFormProps
 > = ({ handleCreateCmoAsset }) => {
   const intl = useIntl();
+  const navigate = useNavigate();
   const paths = useAdminRoutes();
   const methods = useForm<FormValues>();
   const { handleSubmit } = methods;
