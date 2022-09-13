@@ -50,6 +50,7 @@
     "**/*.css"
   ],
   "dependencies": {
+    "react-router-dom": "^6.3.0",
     "@heroicons/react": "^2.0.10",
     "@reach/alert-dialog": "^0.16.0",
     "@reach/dialog": "^0.16.0",
