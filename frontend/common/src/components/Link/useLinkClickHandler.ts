@@ -1,5 +1,5 @@
 import React from "react";
-import { navigate } from "../../helpers/router";
+import { useNavigate } from "react-router-dom";
 
 interface LinkClickHandlerOptions {
   to: string;
@@ -14,6 +14,8 @@ function useLinkClickHandler<T extends HTMLAnchorElement>({
   to,
   target,
 }: LinkClickHandlerOptions): (event: React.MouseEvent<T, MouseEvent>) => void {
+  const navigate = useNavigate();
+
   return React.useCallback(
     (e: React.MouseEvent<T, MouseEvent>) => {
       if (
@@ -26,7 +28,7 @@ function useLinkClickHandler<T extends HTMLAnchorElement>({
         navigate(to);
       }
     },
-    [to, target],
+    [to, target, navigate],
   );
 }
 
