@@ -12,7 +12,6 @@ import {
   TextArea,
 } from "@common/components/form";
 import { notEmpty } from "@common/helpers/util";
-import { navigate } from "@common/helpers/router";
 import { getLocale } from "@common/helpers/localize";
 import { unpackIds, enumToOptions } from "@common/helpers/formUtils";
 
@@ -20,6 +19,7 @@ import { errorMessages, commonMessages } from "@common/messages";
 import { getSkillCategory } from "@common/constants/localizedConstants";
 import Pending from "@common/components/Pending";
 import NotFound from "@common/components/NotFound";
+import { useNavigate, useParams } from "react-router-dom";
 import { useAdminRoutes } from "../../adminRoutes";
 import {
   Skill,
@@ -51,6 +51,7 @@ export const UpdateSkillFamilyForm: React.FunctionComponent<
   UpdateSkillFamilyFormProps
 > = ({ initialSkillFamily, skills, handleUpdateSkillFamily }) => {
   const intl = useIntl();
+  const navigate = useNavigate();
   const locale = getLocale(intl);
   const paths = useAdminRoutes();
   const sortedSkills = sortBy(skills, (skill) => {
@@ -231,13 +232,12 @@ export const UpdateSkillFamilyForm: React.FunctionComponent<
   );
 };
 
-const UpdateSkillFamily: React.FunctionComponent<{
-  skillFamilyId: string;
-}> = ({ skillFamilyId }) => {
+const UpdateSkillFamily = () => {
   const intl = useIntl();
+  const { skillFamilyId } = useParams();
   const [{ data: lookupData, fetching, error }] =
     useGetUpdateSkillFamilyDataQuery({
-      variables: { id: skillFamilyId },
+      variables: { id: skillFamilyId as string },
     });
   const skills: Skill[] | [] = lookupData?.skills.filter(notEmpty) ?? [];
 

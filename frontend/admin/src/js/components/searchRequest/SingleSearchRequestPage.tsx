@@ -2,9 +2,7 @@ import React from "react";
 import { useIntl } from "react-intl";
 import { SingleSearchRequestApi } from "./SingleSearchRequest";
 
-export const SingleSearchRequestPage: React.FunctionComponent<{
-  searchRequestId: string;
-}> = ({ searchRequestId }) => {
+export const SingleSearchRequestPage = () => {
   const intl = useIntl();
   return (
     <div>
@@ -24,7 +22,7 @@ export const SingleSearchRequestPage: React.FunctionComponent<{
               })}
             </h1>
           </header>
-          <SingleSearchRequestApi searchRequestId={searchRequestId} />
+          <SingleSearchRequestApi />
         </div>
       </div>
     </div>

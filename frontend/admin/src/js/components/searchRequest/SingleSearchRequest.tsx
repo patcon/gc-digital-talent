@@ -8,6 +8,7 @@ import { notEmpty } from "@common/helpers/util";
 import { getPoolCandidateSearchStatus } from "@common/constants/localizedConstants";
 import Pending from "@common/components/Pending";
 import NotFound from "@common/components/NotFound";
+import { useParams } from "react-router-dom";
 import {
   PoolCandidateFilterInput,
   PoolCandidateSearchRequest,
@@ -324,13 +325,12 @@ export const SingleSearchRequest: React.FunctionComponent<
   );
 };
 
-export const SingleSearchRequestApi: React.FunctionComponent<{
-  searchRequestId: string;
-}> = ({ searchRequestId }) => {
+export const SingleSearchRequestApi = () => {
   const intl = useIntl();
+  const { requestId } = useParams();
   const [{ data: searchRequestData, fetching, error }] =
     useGetPoolCandidateSearchRequestQuery({
-      variables: { id: searchRequestId },
+      variables: { id: requestId as string },
     });
 
   return (
@@ -349,7 +349,7 @@ export const SingleSearchRequestApi: React.FunctionComponent<{
                 description:
                   "Message displayed for search request not found on single search request page.",
               },
-              { searchRequestId },
+              { requestId },
             )}
           </p>
         </NotFound>

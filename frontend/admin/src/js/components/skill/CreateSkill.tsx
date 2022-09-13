@@ -6,10 +6,10 @@ import { toast } from "react-toastify";
 import { Input, TextArea, Submit, MultiSelect } from "@common/components/form";
 import { getLocale } from "@common/helpers/localize";
 import { notEmpty } from "@common/helpers/util";
-import { navigate } from "@common/helpers/router";
 import { keyStringRegex } from "@common/constants/regularExpressions";
 import { errorMessages } from "@common/messages";
 import Pending from "@common/components/Pending";
+import { useNavigate } from "react-router-dom";
 import { useAdminRoutes } from "../../adminRoutes";
 import {
   Skill,
@@ -51,6 +51,7 @@ export const CreateSkillForm: React.FunctionComponent<CreateSkillFormProps> = ({
   handleCreateSkill,
 }) => {
   const intl = useIntl();
+  const navigate = useNavigate();
   const locale = getLocale(intl);
   const paths = useAdminRoutes();
   const methods = useForm<FormValues>();

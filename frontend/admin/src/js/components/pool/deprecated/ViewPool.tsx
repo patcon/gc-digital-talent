@@ -18,6 +18,7 @@ import { getLocale } from "@common/helpers/localize";
 
 import Pending from "@common/components/Pending";
 import NotFound from "@common/components/NotFound";
+import { useParams } from "react-router-dom";
 import { useAdminRoutes } from "../../../adminRoutes";
 import { useGetPoolQuery } from "../../../api/generated";
 import type { Pool } from "../../../api/generated";

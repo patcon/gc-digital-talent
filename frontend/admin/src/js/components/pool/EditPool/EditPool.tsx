@@ -329,11 +329,15 @@ export const EditPool = () => {
               poolAdvertisement={data.poolAdvertisement}
               classifications={data.classifications.filter(notEmpty)}
               skills={data.skills.filter(notEmpty)}
-              onSave={(saveData) => mutations.update(poolId, saveData)}
-              onPublish={() => mutations.publish(poolId)}
-              onDelete={() => mutations.delete(poolId)}
-              onClose={() => mutations.close(poolId)}
-              onExtend={(extendData) => mutations.update(poolId, extendData)}
+              onSave={(saveData) =>
+                mutations.update(poolId as string, saveData)
+              }
+              onPublish={() => mutations.publish(poolId as string)}
+              onDelete={() => mutations.delete(poolId as string)}
+              onClose={() => mutations.close(poolId as string)}
+              onExtend={(extendData) =>
+                mutations.update(poolId as string, extendData)
+              }
               onArchive={() => console.warn("onArchive not yet implemented")}
             />
           </EditPoolContext.Provider>

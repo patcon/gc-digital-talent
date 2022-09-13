@@ -6,12 +6,12 @@ import sortBy from "lodash/sortBy";
 import { toast } from "react-toastify";
 import { Submit, Input, MultiSelect, TextArea } from "@common/components/form";
 import { notEmpty } from "@common/helpers/util";
-import { navigate } from "@common/helpers/router";
 import { getLocale } from "@common/helpers/localize";
 import { unpackIds } from "@common/helpers/formUtils";
 import { errorMessages, commonMessages } from "@common/messages";
 import Pending from "@common/components/Pending";
 import NotFound from "@common/components/NotFound";
+import { useNavigate, useParams } from "react-router-dom";
 import { useAdminRoutes } from "../../adminRoutes";
 import {
   Skill,
@@ -48,6 +48,7 @@ export const UpdateSkillForm: React.FunctionComponent<UpdateSkillFormProps> = ({
   handleUpdateSkill,
 }) => {
   const intl = useIntl();
+  const navigate = useNavigate();
   const locale = getLocale(intl);
   const paths = useAdminRoutes();
   const sortedFamilies = sortBy(families, (family) => {
@@ -258,12 +259,11 @@ export const UpdateSkillForm: React.FunctionComponent<UpdateSkillFormProps> = ({
   );
 };
 
-export const UpdateSkill: React.FunctionComponent<{
-  skillId: string;
-}> = ({ skillId }) => {
+export const UpdateSkill = () => {
   const intl = useIntl();
+  const { skillId } = useParams();
   const [{ data: lookupData, fetching, error }] = useGetUpdateSkillDataQuery({
-    variables: { id: skillId },
+    variables: { id: skillId as string },
   });
   const families: SkillFamily[] | [] =
     lookupData?.skillFamilies.filter(notEmpty) ?? [];

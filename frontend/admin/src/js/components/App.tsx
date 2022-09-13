@@ -147,19 +147,21 @@ const App = () => {
                 <Route path=":classificationId/edit" element={<UpdateClassification />} />
               </Route>
               <Route path="departments">
-                <Route index element={<div />} />
-                <Route path="create" element={<div />} />
-                <Route path=":departmentId/edit" element={<div />} />
+                <Route index element={<DepartmentPage />} />
+                <Route path="create" element={<CreateDepartment />} />
+                {/* eslint-disable-next-line prettier/prettier */}
+                <Route path=":departmentId/edit" element={<UpdateDepartment />} />
               </Route>
               <Route path="skills">
-                <Route index element={<div />} />
-                <Route path="create" element={<div />} />
-                <Route path=":departmentId/edit" element={<div />} />
+                <Route index element={<SkillPage />} />
+                <Route path="create" element={<CreateSkill />} />
+                <Route path=":skillId/edit" element={<UpdateSkill />} />
 
                 <Route path="families">
-                  <Route index element={<div />} />
-                  <Route path="create" element={<div />} />
-                  <Route path=":departmentId/edit" element={<div />} />
+                  <Route index element={<SkillFamilyPage />} />
+                  <Route path="create" element={<CreateSkillFamily />} />
+                  {/* eslint-disable-next-line prettier/prettier */}
+                  <Route path=":skillFamilyId/edit" element={<UpdateSkillFamily />} />
                 </Route>
               </Route>
             </Route>
@@ -168,6 +170,11 @@ const App = () => {
               <Route index element={<CmoAssetPage />} />
               <Route path="create" element={<CreateCmoAsset />} />
               <Route path=":assetId/edit" element={<UpdateCmoAsset />} />
+            </Route>
+
+            <Route path="talent-requests">
+              <Route index element={<SearchRequestPage />} />
+              <Route path=":requestId" element={<SingleSearchRequestPage />} />
             </Route>
 
             <Route path="pools">

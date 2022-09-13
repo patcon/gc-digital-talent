@@ -1,10 +1,10 @@
 import { PoolCandidateSearchRequest } from "@common/api/generated";
 import { Button } from "@common/components";
 import { Submit, TextArea } from "@common/components/form";
-import { navigate } from "@common/helpers/router";
 import * as React from "react";
 import { FormProvider, SubmitHandler, useForm } from "react-hook-form";
 import { useIntl } from "react-intl";
+import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useAdminRoutes } from "../../adminRoutes";
 import {
@@ -27,6 +27,7 @@ export const UpdateSearchRequestForm: React.FunctionComponent<
   UpdateSearchRequestFormProps
 > = ({ initialSearchRequest, handleUpdateSearchRequest }) => {
   const intl = useIntl();
+  const navigate = useNavigate();
   const paths = useAdminRoutes();
   const methods = useForm<FormValues>({
     defaultValues: initialSearchRequest,

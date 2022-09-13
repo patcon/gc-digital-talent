@@ -12,11 +12,11 @@ import {
 } from "@common/components/form";
 import { getLocale } from "@common/helpers/localize";
 import { notEmpty } from "@common/helpers/util";
-import { navigate } from "@common/helpers/router";
 import { enumToOptions } from "@common/helpers/formUtils";
 import { errorMessages } from "@common/messages";
 import { getSkillCategory } from "@common/constants/localizedConstants";
 import Pending from "@common/components/Pending";
+import { useNavigate } from "react-router-dom";
 import { useAdminRoutes } from "../../adminRoutes";
 import {
   Skill,
@@ -55,6 +55,7 @@ export const CreateSkillFamilyForm: React.FunctionComponent<
   CreateSkillFamilyFormProps
 > = ({ skills, handleCreateSkillFamily }) => {
   const intl = useIntl();
+  const navigate = useNavigate();
   const locale = getLocale(intl);
   const paths = useAdminRoutes();
   const methods = useForm<FormValues>();
