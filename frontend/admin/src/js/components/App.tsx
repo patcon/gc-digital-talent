@@ -10,14 +10,20 @@ import {
   AuthenticationContext,
   AuthorizationContext,
 } from "@common/components/Auth";
-import Dashboard, {
-  AdminNotAuthorized,
-  AdminNotFound,
-} from "./dashboard/Dashboard";
 import { useAdminRoutes } from "../adminRoutes";
-import HomePage from "./home/HomePage";
-import DashboardPage from "./dashboard/DashboardPage";
 import { Role } from "../api/generated";
+
+import { AdminNotAuthorized, AdminNotFound } from "./dashboard/Dashboard";
+
+const HomePage = React.lazy(() => import("./home/HomePage"));
+const Dashboard = React.lazy(() => import("./dashboard/Dashboard"));
+const DashboardPage = React.lazy(() => import("./dashboard/DashboardPage"));
+
+/** Users */
+const UserPage = React.lazy(() => import("./user/UserPage"));
+const CreateUser = React.lazy(() => import("./user/CreateUser"));
+const UpdateUser = React.lazy(() => import("./user/UpdateUser"));
+const ViewUser = React.lazy(() => import("./user/ViewUser"));
 
 const useAuth = () => {
   return {
@@ -56,6 +62,10 @@ const App = () => {
           {/* protected routes */}
           <Route element={<RequireAuth allowedRoles={[Role.Admin]} />}>
             <Route path="dashboard" element={<DashboardPage />} />
+            <Route path="users">
+              <Route index element={<UserPage />} />
+              <Route path="create" element={<CreateUser />} />
+            </Route>
           </Route>
 
           {/* catch all */}
