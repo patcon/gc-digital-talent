@@ -169,7 +169,7 @@ const App = () => {
             <Route path="cmo-assets">
               <Route index element={<CmoAssetPage />} />
               <Route path="create" element={<CreateCmoAsset />} />
-              <Route path=":assetId/edit" element={<UpdateCmoAsset />} />
+              <Route path=":cmoAssetId/edit" element={<UpdateCmoAsset />} />
             </Route>
 
             <Route path="talent-requests">
