@@ -38,10 +38,10 @@ const adminRoutes = (lang: string) => {
       `${home()}/settings/classifications/${id}/edit`,
 
     skillTable: () => `${home()}/settings/skills`,
-    skillCreate: () => path.join(home(), "settings", "skills", "create"),
+    skillCreate: () => `${home()}/settings/skills/create`,
     skillUpdate: (id = ":id") => `${home()}/settings/skills/${id}/edit`,
     skillFamilyTable: () => `${home()}/settings/skills/families`,
-    skillFamilyCreate: () => `${home()}/settings/skills/families/create"`,
+    skillFamilyCreate: () => `${home()}/settings/skills/families/create`,
     skillFamilyUpdate: (id = ":id") =>
       `${home()}/settings/skills/families/${id}/edit`,
 
