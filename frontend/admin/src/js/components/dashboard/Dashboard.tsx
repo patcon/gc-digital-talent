@@ -13,7 +13,7 @@ import { Outlet } from "react-router-dom";
 import AdminSideMenu from "../menu/AdminSideMenu";
 import { ADMIN_APP_DIR } from "../../adminConstants";
 
-const AdminNotFound: React.FC = () => {
+export const AdminNotFound: React.FC = () => {
   const intl = useIntl();
   return (
     <NotFound
@@ -35,7 +35,7 @@ const AdminNotFound: React.FC = () => {
   );
 };
 
-const AdminNotAuthorized: React.FC = () => {
+export const AdminNotAuthorized: React.FC = () => {
   const intl = useIntl();
   return (
     <NotAuthorized
