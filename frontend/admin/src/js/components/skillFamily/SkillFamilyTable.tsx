@@ -1,12 +1,12 @@
 import React, { useMemo } from "react";
 import { IntlShape, useIntl } from "react-intl";
 import { getLocale } from "@common/helpers/localize";
-import { useLocation } from "@common/helpers/router";
 import { notEmpty } from "@common/helpers/util";
 import { FromArray } from "@common/types/utilityTypes";
 import { getSkillCategory } from "@common/constants/localizedConstants";
 import { SkillCategory } from "@common/api/generated";
 import Pending from "@common/components/Pending";
+import { useLocation } from "react-router-dom";
 import {
   AllSkillFamiliesQuery,
   useAllSkillFamiliesQuery,

@@ -14,8 +14,8 @@ import {
   UserIcon,
   Squares2X2Icon,
 } from "@heroicons/react/24/outline";
-import { useLocation } from "@common/helpers/router";
 import { AuthorizationContext } from "@common/components/Auth";
+import { useLocation } from "react-router-dom";
 import LoginOrLogout from "./LoginOrLogout";
 
 import { useAdminRoutes } from "../../adminRoutes";

@@ -1,10 +1,10 @@
 import React, { useMemo } from "react";
 import { useIntl } from "react-intl";
-import { useLocation } from "@common/helpers/router";
 import { notEmpty } from "@common/helpers/util";
 import { FromArray } from "@common/types/utilityTypes";
 import { getLocale } from "@common/helpers/localize";
 import Pending from "@common/components/Pending";
+import { useLocation } from "react-router-dom";
 import { DepartmentsQuery, useDepartmentsQuery } from "../../api/generated";
 import Table, { ColumnsOf, tableEditButtonAccessor } from "../Table";
 import { useAdminRoutes } from "../../adminRoutes";
