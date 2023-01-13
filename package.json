@@ -22,6 +22,7 @@
     "build:project": "turbo run build",
     "codegen": "npm run codegen --workspaces --if-present",
     "intl-extract": "npm run intl-extract --workspaces --if-present",
+    "intl-extract-weblate": "npm run intl-extract-weblate --workspaces --if-present",
     "intl-compile": "npm run intl-compile --workspaces --if-present",
     "dev": "turbo run dev --filter='./apps/*' --filter='./frontend/*' --filter='!@gc-digital-talent/e2e'",
     "dev:project": "turbo run dev",

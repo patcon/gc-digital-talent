@@ -9,6 +9,7 @@
     "codegen": "graphql-codegen",
     "dev": "webpack --config webpack.dev.js",
     "intl-extract": "formatjs extract './src/**/*.{ts,tsx}' --ignore './**/*.d.ts' --out-file src/lang/en.json --id-interpolation-pattern [sha512:contenthash:base64:6]",
+    "intl-extract-weblate": "formatjs extract './src/**/*.{ts,tsx}' --ignore './**/*.d.ts' --out-file src/lang/en.weblate.json --id-interpolation-pattern [sha512:contenthash:base64:6] --format simple",
     "intl-compile": "formatjs compile ./src/lang/fr.json --ast --out-file ./src/lang/frCompiled.json",
     "lint": "eslint ./src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint ./src --fix --ext .js,.ts,.jsx,.tsx",
