@@ -36,7 +36,7 @@
     "build-storybook": "build-storybook",
     "codegen": "graphql-codegen",
     "intl-extract": "formatjs extract './src/js/**/*.{ts,tsx}' --ignore './**/*.d.ts' --out-file src/js/lang/en.json --id-interpolation-pattern [sha512:contenthash:base64:6]",
-    "intl-extract-weblate": "formatjs extract './src/js/**/*.{ts,tsx}' --ignore './**/*.d.ts' --out-file src/js/lang/en.weblate.json --id-interpolation-pattern [sha512:contenthash:base64:6] --format simple",
+    "intl-extract-weblate": "npm run intl-extract -- --format ../../extract-formatter-webext-json.js",
     "intl-compile": "formatjs compile ./src/js/lang/fr.json --ast --out-file ./src/js/lang/frCompiled.json",
     "test": "jest --detectOpenHandles --forceExit",
     "test:watch": "jest --watch"
