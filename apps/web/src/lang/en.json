@@ -1,0 +1,366 @@
+{
+  "+JIfBy": {
+    "description": "Learn more dialog question nine heading",
+    "message": "In which department or agency will apprentices work?"
+  },
+  "+cn9MN": {
+    "description": "IAP Requirement list item six",
+    "message": "Individuals who are offered positions with the flexibility of working from home must have adequate internet access to support remote work."
+  },
+  "+do6jV": {
+    "description": "Button text for program eligibility criteria",
+    "message": "See Eligibility Criteria"
+  },
+  "/5tYua": {
+    "description": "How it works, step 2 heading",
+    "message": "Provide your Information"
+  },
+  "/7NWbF": {
+    "description": "Third paragraph for apply now dialog",
+    "message": "Thank you for your interest in this Program. We look forward to hearing from you!"
+  },
+  "/ar49+": {
+    "description": "IAP Requirement list item five",
+    "message": "Have a commitment to learn throughout the duration of the program, both on-the-job and by following an online training program"
+  },
+  "0i34ZZ": {
+    "description": "Talent portal strategy item 4 content",
+    "message": "Aim to launch the program in the early half of 2023."
+  },
+  "1B4niz": {
+    "description": "How it works, step 1 content paragraph 1",
+    "message": "The Program was designed to respond to reconciliation and the building of a renewed relationship based on recognition of rights, respect, cooperation and partnership with Indigenous peoples."
+  },
+  "1FM1VL": {
+    "description": "Second paragraph about who the program is for",
+    "message": "If you are not sure if this Program is right for you, please <mailLink>contact us</mailLink> and a member of our team will be happy to meet with you to answer any questions you may have."
+  },
+  "1M3LT6": {
+    "description": "Learn more dialog question eleven paragraph one",
+    "message": "Soon, an online application process will be available for people to express their interest. In the meantime, we encourage you to send your resumé and cover letter to: edsc.pda-iap.esdc@hrsdc-rhdcc.gc.ca"
+  },
+  "1pFMSH": {
+    "description": "How it works, step 1 heading",
+    "message": "Complete the Community Indigenous Peoples Self-Declaration Form"
+  },
+  "27FjxB": {
+    "description": "IAP Requirement list item four",
+    "message": "Have a passion for and an interest in information technology (IT), with that passion and interest demonstrated through personal, volunteer, community, or professional life experience"
+  },
+  "404R1N": {
+    "description": "testimonial number one",
+    "message": "This program has been a life-changing opportunity for me and I see a <b>greater future ahead</b>."
+  },
+  "436DA5": {
+    "description": "Talent portal strategy item 2 heading",
+    "message": "Grow"
+  },
+  "49UIne": {
+    "description": "author of testimonial number one",
+    "message": "Government of Canada IT Apprentice"
+  },
+  "4p0QdF": {
+    "description": "Button text used to close an open modal",
+    "message": "Close"
+  },
+  "6l9YH+": {
+    "description": "Heading for the applicant requirements dialog",
+    "message": "Applicants must meet the following requirements:"
+  },
+  "74Sg+4": {
+    "description": "Learn more dialog question twelve paragraph one",
+    "message": "The minimum education requirement is a GED or high school diploma. A college or university education is not required."
+  },
+  "81iywD": {
+    "description": "How it works, step 3 content sentence 1",
+    "message": "You'll be prompted to confirm the information you provided"
+  },
+  "84rSVg": {
+    "description": "Talent portal strategy item 2 content",
+    "message": "Allow for growth in its recruitment scope by targeting other occupational areas in the future."
+  },
+  "8PhWBd": {
+    "description": "Talent portal strategy item 4 heading",
+    "message": "Launch"
+  },
+  "BSSYnh": {
+    "description": "Second paragraph for apply now dialog",
+    "message": "We want to let you know that in the meantime, updates are being made on this site that will allow Indigenous peoples who are interested in joining the IT Apprenticeship Program to apply online."
+  },
+  "C5tUG2": {
+    "description": "Title tag for Indigenous Apprenticeship Program site",
+    "message": "Indigenous Apprenticeship Program"
+  },
+  "CY+493": {
+    "description": "Button text to learn more about the program",
+    "message": "Learn More"
+  },
+  "CZGta2": {
+    "description": "Learn more dialog question ten heading",
+    "message": "Is there a cost to participate in the program?"
+  },
+  "CqLV19": {
+    "description": "Program information section title",
+    "message": "About the Program"
+  },
+  "DBczOG": {
+    "description": "Heading for strategy for the indigenous talent portal",
+    "message": "Strategy"
+  },
+  "DgMIfz": {
+    "description": "Application box heading part one",
+    "message": "Is the IT Apprenticeship Program right for you?"
+  },
+  "DvmNR7": {
+    "description": "Button text to apply for program",
+    "message": "Apply Now"
+  },
+  "Dzyk1q": {
+    "description": "Description for strategy for the indigenous talent portal",
+    "message": "In collaboration with the IT Apprenticeship Program for Indigenous Peoples, the Indigenous Talent Portal will begin with a focus on IT and technology talent, which will:"
+  },
+  "EqVMCE": {
+    "description": "First paragraph for apply now dialog",
+    "message": "Please send your resume and cover letter explaining your passion for IT and why you're interested in joining the program to: <mailLink>edsc.pda-iap.esdc@hrsdc-rhdcc.gc.ca</mailLink>. A team member will contact you in 3-5 business days"
+  },
+  "GnmmgR": {
+    "description": "How it works, step 3 content sentence 2",
+    "message": "Upon submission, a team member will contact you within 3-5 business days."
+  },
+  "Ilot3b": {
+    "description": "Learn more dialog question three heading",
+    "message": "What happens after a person completes the 24 month program?"
+  },
+  "KdXvmY": {
+    "description": "Learn more dialog question seven heading",
+    "message": "How do I know if this program is for me?"
+  },
+  "L9yjr3": {
+    "description": "Heading for the Learn more dialog",
+    "message": "Learn More About the Government of Canada IT Apprenticeship Program for Indigenous Peoples"
+  },
+  "LGSw+f": {
+    "description": "Learn more dialog question two paragraph two",
+    "message": "All apprentices will be supported by carefully selected peer partners and mentors. Apprentices will also be invited to join an Indigenous Apprenticeship Network, where there will be opportunities to connect with other Indigenous employees in the Government of Canada, and with other Indigenous apprentices who are participating in this program."
+  },
+  "MgLLHd": {
+    "description": "Talent portal strategy item 1 heading",
+    "message": "High Demand"
+  },
+  "NaF4Iu": {
+    "description": "Application box heading part two",
+    "message": "Apply today!"
+  },
+  "O0z6Ym": {
+    "description": "Heading for section about who the program is for",
+    "message": "Who is the program for?"
+  },
+  "OcIvN1": {
+    "description": "Learn more dialog question three paragraph one",
+    "message": "Upon successful completion of the program, it is hoped that apprentices will consider remaining with the Government of Canada."
+  },
+  "Oh1/Gc": {
+    "description": "Meta tag description for Indigenous Apprenticeship Program site",
+    "message": "Apply now to get started on your IT career journey."
+  },
+  "PvH5lJ": {
+    "description": "Heading for the quotes sections",
+    "message": "What We’re Hearing"
+  },
+  "QkZ7Oy": {
+    "description": "Learn more dialog question eleven heading",
+    "message": "How can a person apply to become an apprentice?"
+  },
+  "Qt9Q8k": {
+    "description": "Learn more dialog question two heading",
+    "message": "How long is the program?"
+  },
+  "S/PXt/": {
+    "description": "Learn more dialog question nine paragraph one",
+    "message": "Opportunities exist in a large number of departments and agencies across the Government of Canada. The program will attempt to match apprentices with opportunities that best align with their interests."
+  },
+  "SnnuD+": {
+    "description": "How it works, step 2 content sentence 2",
+    "message": "We’ll invite you to create a profile which will be saved and submitted as your actual application."
+  },
+  "TFeQL2": {
+    "description": "Link to the homepage for indigenous apprenticeship program.",
+    "message": "Home"
+  },
+  "U8bLT7": {
+    "description": "heading for how the indigenous talent portal will work",
+    "message": "How it Will Work"
+  },
+  "UDHGGA": {
+    "description": "Description of how the indigenous talent portal will work",
+    "message": "Soon, applicants will be able to apply using an online, interactive tool that will be available on this website. Here’s what we’re working on:"
+  },
+  "UQlyXu": {
+    "description": "Learn more dialog question eight paragraph one",
+    "message": "Apprentices will experience a combination of on-the-job learning and online training in one or more information technology areas. Apprentices are expected to demonstrate their interest and passion for technology by being willing to observe, learn, and practice new skills that are developed over the course of the program. On average, an apprentice will spend four days a week doing hands-on learning, while the fifth day of the week will be dedicated to personal and professional development through online training and through other developmental training opportunities."
+  },
+  "WDRWcu": {
+    "description": "Learn more dialog question six heading",
+    "message": "Do I have to move to Ottawa or to a specific location to participate in this program?"
+  },
+  "XS21o1": {
+    "description": "Learn more dialog question five paragraph one",
+    "message": "You bet! As employees of the Government of Canada, all apprentices will be entitled to vacation leave, sick leave, and family related leave. After six months, apprentices will also have access to medical and dental insurance coverage for themselves and their dependents, in addition to becoming a member of the federal public service pension plan."
+  },
+  "Xhfkfg": {
+    "description": "Talent portal strategy item 1 content",
+    "message": "Address the great demand for Indigenous talent in IT."
+  },
+  "YGM/D5": {
+    "description": "Learn more dialog question two paragraph one",
+    "message": "The program is 24 months in length, with supports available to apprentices during their time in the program."
+  },
+  "b09U1u": {
+    "description": "First paragraph what will you learn at the program",
+    "message": "At the end of their 24-month term, apprentices will have marketable and in-demand certifications and skills, as well as the confidence necessary to contribute as part of Canada’s digital workforce, both within and outside the federal public service."
+  },
+  "cNXORI": {
+    "description": "IAP Requirement list item three",
+    "message": "Be a minimum of 16 years old"
+  },
+  "cYq1Dp": {
+    "description": "Third paragraph about the program",
+    "message": "Apprentices who are involved in the program say that it is “life-changing”, that it represents “a chance to have a better life through technology”, and that “there are no barriers to succeeding in this program”."
+  },
+  "ce892L": {
+    "description": "Heading for the apply now dialog",
+    "message": "Apply Now"
+  },
+  "dDHy5d": {
+    "description": "First paragraph what will you learn at the program",
+    "message": "Apprentices follow a 24-month structured program consisting of a mix of on-the-job learning and formal training."
+  },
+  "dgG8md": {
+    "description": "Learn more dialog question twelve heading",
+    "message": "What education requirements exist – can I apply if I don't have a college diploma or university degree?"
+  },
+  "fF4Ex+": {
+    "description": "Talent portal information sentence 1",
+    "message": "The Indigenous Talent Portal was built for the Indigenous community, by the Indigenous community."
+  },
+  "fvsYkj": {
+    "description": "What applicants will learn sections heading",
+    "message": "What will I learn in this apprenticeship?"
+  },
+  "hSmKjD": {
+    "description": "Learn more dialog question four paragraph one",
+    "message": "Absolutely! Your time is valuable. Apprentices will receive pay and benefits as employees of the Government of Canada. Apprentices will earn between $29.00 and $33.00 per hour to start, with the exact salary to be determined at the time of hire and dependent upon the collective agreement in place within the hiring organization. Apprentices will be employed full-time, for a total of 37.5 hours per week."
+  },
+  "hdBTPI": {
+    "description": "Learn more dialog question ten paragraph one",
+    "message": "All required computer equipment (laptop, mouse, monitor, phone) and training material will be provided at no-cost. If a person chooses to work from home, the cost of internet access will be the responsibility of the apprentice."
+  },
+  "jA4kuU": {
+    "description": "Learn more dialog question four heading",
+    "message": "Will apprentices be paid?"
+  },
+  "jyQi0m": {
+    "description": "Learn more dialog question on paragraph one",
+    "message": "If you are First Nations, Inuk, or Métis, and you live in Canada, then you can apply to become an apprentice in this program."
+  },
+  "khChKa": {
+    "description": "First paragraph about who the program is for",
+    "message": "The Program is for First Nations, Inuit, and Métis peoples. If you are First Nations, an Inuk, or Métis, and if you have a passion for technology, then this Program is for you!"
+  },
+  "kiH9nz": {
+    "description": "Button text displayed for Indigenous languages dropdown",
+    "message": "Select<hidden> an Indigenous language</hidden>"
+  },
+  "lIHNov": {
+    "description": "Talent portal strategy item 3 heading",
+    "message": "Assess"
+  },
+  "loDwKe": {
+    "description": "Talent Portal information heading",
+    "message": "About the Indigenous Talent Portal"
+  },
+  "mfBsJY": {
+    "description": "Learn more dialog question eight heading",
+    "message": "What will apprentices have to do as part of the program?"
+  },
+  "nzcwrW": {
+    "description": "First paragraph what will you learn at the program",
+    "message": "Apprentices will be partnered with a peer to facilitate job shadowing and supervised work, and they are assigned a mentor who provides experienced counsel and guidance over the course of the program."
+  },
+  "osGGIt": {
+    "description": "heading for indigenous talent portal section",
+    "message": "IT Apprenticeship Program for Indigenous Peoples + The Indigenous Talent Portal"
+  },
+  "p19YJ2": {
+    "description": "Application box content",
+    "message": "Apply today to start your journey to a career in Information Technology."
+  },
+  "p2sBh3": {
+    "description": "Learn more dialog question one heading",
+    "message": "Who can apply to become an apprentice as part of the Government of Canada IT Apprenticeship Program for Indigenous Peoples?"
+  },
+  "pPOGwF": {
+    "description": "IAP Requirement list item one",
+    "message": "Are First Nations (status or non-status), Inuit, or Métis"
+  },
+  "pWoAv0": {
+    "description": "First paragraph about the program",
+    "message": "The IT Apprenticeship Program for Indigenous Peoples is a Government of Canada initiative specifically for First Nations, Inuit, and Métis peoples. It is pathway to employment in the federal public service for Indigenous peoples who have a passion for Information Technology (IT)."
+  },
+  "pkFLpT": {
+    "description": "Learn more dialog question seven paragraph one",
+    "message": "If you have an interest and a passion for technology and self-identify as Indigenous, then this program is for you."
+  },
+  "q5FQbu": {
+    "description": "Heading for a coming soon section",
+    "message": "Coming Soon!"
+  },
+  "qZvV7b": {
+    "description": "Homepage title for Indigenous Apprenticeship Program",
+    "message": "IT Apprenticeship Program for Indigenous Peoples. Apply today to get started on your IT career journey."
+  },
+  "rQ61eh": {
+    "description": "Talent portal strategy item 3 content",
+    "message": "Allow for data and feedback to be collected and leveraged to improve the service."
+  },
+  "rz21yp": {
+    "description": "Learn more dialog question five heading",
+    "message": "Will apprentices be entitled to any benefits?"
+  },
+  "sycoGU": {
+    "description": "Learn more dialog question six paragraph one",
+    "message": "Not necessarily. Most apprenticeship opportunities can be done by working from home, as long as there is an internet connection. Some positions do have a location-specific requirement. We value the importance of family and community, and we encourage individuals to join our family without having to leave theirs, and to become part of our community while remaining in theirs. Talk to your hiring manager about your situation/preference and we will do our best to work with you to find a suitable solution."
+  },
+  "t2Q+IG": {
+    "description": "Button text for returning to default language from Indigenous language",
+    "message": "Go back to English"
+  },
+  "uJ1rk3": {
+    "description": "How it works, step 1 content paragraph 2",
+    "message": "There are three distinct groups of Indigenous peoples recognized in the Canadian constitution. You will be asked to confirm which Indigenous group(s) you belong to via the Indigenous Peoples Self-Declaration Form."
+  },
+  "uoX7ou": {
+    "description": "Text displayed as label for Indigenous languages selector",
+    "message": "This page is available in Indigenous languages"
+  },
+  "wHWE3M": {
+    "description": "Talent portal information sentence 2",
+    "message": "It is a platform designed to host employment opportunities for Indigenous peoples in a way that recognizes and showcases their unique talents, ideas, skills and passion."
+  },
+  "wgIThY": {
+    "description": "IAP Requirement list item two",
+    "message": "Have a high school diploma or equivalent (a GED)"
+  },
+  "wqwPhL": {
+    "description": "Second paragraph about the program",
+    "message": "By valuing and focusing on a person’s potential, rather than on their educational attainment level, the Program removes one of the biggest barriers that exists when it comes to employment within the digital economy. The Program has been developed by, with, and for Indigenous peoples from across Canada. Its design incorporates the preferences and needs of Indigenous learners while recognizing the importance of community."
+  },
+  "yZMQ6j": {
+    "description": "How it works, step 2 content sentence 1",
+    "message": "We want to learn about you and about your interest/passion in the area of IT!"
+  },
+  "zlYw3Z": {
+    "description": "How it works, step 3 heading",
+    "message": "Submit your Profile as your Application"
+  }
+}

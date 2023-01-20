@@ -1,1943 +1,1971 @@
 {
   "+6TuVe": {
-    "defaultMessage": "Deselect {label}",
-    "description": "Text to uncheck checkbox button"
+    "description": "Text to uncheck checkbox button",
+    "message": "Deselect {label}"
   },
   "+EQZK5": {
-    "defaultMessage": "Quebec",
-    "description": "The work region of Canada described as Quebec."
+    "description": "The work region of Canada described as Quebec.",
+    "message": "Quebec"
   },
   "+O6J4u": {
-    "defaultMessage": "(None selected)",
-    "description": "Text shown when the filter was not selected"
+    "description": "Text shown when the filter was not selected",
+    "message": "(None selected)"
   },
   "+ZPD1J": {
-    "defaultMessage": "Close Menu",
-    "description": "Text label for button that closes side menu."
+    "description": "Text label for button that closes side menu.",
+    "message": "Close Menu"
   },
   "+aowPB": {
-    "defaultMessage": "Employment equity",
-    "description": "Title for employment equity section on summary of filters section"
+    "description": "Title for employment equity section on summary of filters section",
+    "message": "Employment equity"
   },
   "+nS/ak": {
-    "defaultMessage": "Additional information:",
-    "description": "Additional information if provided (without details)"
+    "description": "Additional information if provided (without details)",
+    "message": "Additional information:"
   },
   "+tKl71": {
-    "defaultMessage": "I do have a priority entitlement",
-    "description": "affirm possession of priority entitlement"
+    "description": "affirm possession of priority entitlement",
+    "message": "I do have a priority entitlement"
   },
   "/+CmAn": {
-    "defaultMessage": "Edit About Me",
-    "description": "Text on link to update a users personal information."
+    "description": "Text on link to update a users personal information.",
+    "message": "Edit About Me"
   },
   "/78DsY": {
-    "defaultMessage": "You have not selected any skills.",
-    "description": "Text that appears after skill picker when no skills are selected"
+    "description": "Text that appears after skill picker when no skills are selected",
+    "message": "You have not selected any skills."
   },
   "/I9tx9": {
-    "defaultMessage": "This application cannot be deleted. You can only delete applications before submission.",
-    "description": "Error message that the application cannot be deleted."
+    "description": "Error message that the application cannot be deleted.",
+    "message": "This application cannot be deleted. You can only delete applications before submission."
   },
   "/SBJ7g": {
-    "defaultMessage": "Select {label}",
-    "description": "Text to check checkbox button"
+    "description": "Text to check checkbox button",
+    "message": "Select {label}"
   },
   "/UBSoB": {
-    "defaultMessage": "Closed",
-    "description": "Closed pool advertisement status"
+    "description": "Closed pool advertisement status",
+    "message": "Closed"
   },
   "/a8X4d": {
-    "defaultMessage": "Ontario",
-    "description": "The work region of Canada described as Ontario."
+    "description": "The work region of Canada described as Ontario.",
+    "message": "Ontario"
   },
   "/fglL0": {
-    "defaultMessage": "Woman",
-    "description": "Message for woman option in the employment equity section of the request page."
+    "description": "Message for woman option in the employment equity section of the request page.",
+    "message": "Woman"
   },
   "/fv4O0": {
-    "defaultMessage": "No information has been provided.",
-    "description": "Message on Admin side when user not filled WorkPreferences section."
+    "description": "Message on Admin side when user not filled WorkPreferences section.",
+    "message": "No information has been provided."
   },
   "/hsnPJ": {
-    "defaultMessage": "Overtime (regular)",
-    "description": "The operational requirement described as regular overtime. (short-form for limited space)"
+    "description": "The operational requirement described as regular overtime. (short-form for limited space)",
+    "message": "Overtime (regular)"
   },
   "/mFrpj": {
-    "defaultMessage": "Required diploma from post-secondary institution",
-    "description": "Education level message when candidate has a diploma found on the request page."
+    "description": "Education level message when candidate has a diploma found on the request page.",
+    "message": "Required diploma from post-secondary institution"
   },
   "/nMdQr": {
-    "defaultMessage": "<strong>North Region:</strong> Yukon, Northwest Territories and Nunavut.",
-    "description": "The work region of Canada described as North."
+    "description": "The work region of Canada described as North.",
+    "message": "<strong>North Region:</strong> Yukon, Northwest Territories and Nunavut."
   },
   "/xV8Hg": {
-    "defaultMessage": "Not taking applications",
-    "description": "Pool Status described as not taking applications."
+    "description": "Pool Status described as not taking applications.",
+    "message": "Not taking applications"
   },
   "0/8x/z": {
-    "defaultMessage": "Any language"
+    "message": "Any language"
   },
   "00lloL": {
-    "defaultMessage": "Skills unrelated to this application will be hidden during the initial assessment of your application but will always be visible on your profile.",
-    "description": "Text that appears during an application to explain skills appearing missing from their profile."
+    "description": "Text that appears during an application to explain skills appearing missing from their profile.",
+    "message": "Skills unrelated to this application will be hidden during the initial assessment of your application but will always be visible on your profile."
   },
   "0DzlCc": {
-    "defaultMessage": "Work Preferences",
-    "description": "Title of the Work Preferences link section"
+    "description": "Title of the Work Preferences link section",
+    "message": "Work Preferences"
   },
   "0LjLgD": {
-    "defaultMessage": "Not in the CAF",
-    "description": "user is not in the CAF"
+    "description": "user is not in the CAF",
+    "message": "Not in the CAF"
   },
   "0Nz6aa": {
-    "defaultMessage": "Work scheduled overtime",
-    "description": "The operational requirement described as scheduled overtime. (short-form for limited space)"
+    "description": "The operational requirement described as scheduled overtime. (short-form for limited space)",
+    "message": "Work scheduled overtime"
   },
   "0OPWbJ": {
-    "defaultMessage": "You have already applied to this pool",
-    "description": "Message displayed when a user attempts to apply to pool more than once"
+    "description": "Message displayed when a user attempts to apply to pool more than once",
+    "message": "You have already applied to this pool"
   },
   "0T3NB0": {
-    "defaultMessage": "Error: skill name not found",
-    "description": "Error message when skill name is not found on request page."
+    "description": "Error message when skill name is not found on request page.",
+    "message": "Error: skill name not found"
   },
   "0p1W7Q": {
-    "defaultMessage": "Breadcrumbs",
-    "description": "Label for the links to page ancestors"
+    "description": "Label for the links to page ancestors",
+    "message": "Breadcrumbs"
   },
   "0xf5TR": {
-    "defaultMessage": "I am a veteran of the CAF",
-    "description": "declare self to be a CAF veteran"
+    "description": "declare self to be a CAF veteran",
+    "message": "I am a veteran of the CAF"
   },
   "159+n7": {
-    "defaultMessage": "Selected skills ({numOfSkills})",
-    "description": "Title for skills section on summary of filters section"
+    "description": "Title for skills section on summary of filters section",
+    "message": "Selected skills ({numOfSkills})"
   },
   "16AY+M": {
-    "defaultMessage": "Unable to apply to this pool",
-    "description": "Message displayed when user attempts to apply to an unpublished pool"
+    "description": "Message displayed when user attempts to apply to an unpublished pool",
+    "message": "Unable to apply to this pool"
   },
   "1RTwS3": {
-    "defaultMessage": "requires me to <strong>work scheduled overtime</strong>.",
-    "description": "The operational requirement described as scheduled overtime."
+    "description": "The operational requirement described as scheduled overtime.",
+    "message": "requires me to <strong>work scheduled overtime</strong>."
   },
   "1VFyrc": {
-    "defaultMessage": "No information has been provided.",
-    "description": "Message on Admin side when user not filled WorkLocation section."
+    "description": "Message on Admin side when user not filled WorkLocation section.",
+    "message": "No information has been provided."
   },
   "1X8RC4": {
-    "defaultMessage": "Ontario",
-    "description": "Ontario selection for province or territory input"
+    "description": "Ontario selection for province or territory input",
+    "message": "Ontario"
   },
   "1YuZjR": {
-    "defaultMessage": "IT Jobs (ongoing)",
-    "description": "The publishing group called IT Jobs for ongoing recruitments"
+    "description": "The publishing group called IT Jobs for ongoing recruitments",
+    "message": "IT Jobs (ongoing)"
   },
   "1pMCyl": {
-    "defaultMessage": "Casual",
-    "description": "Simple casual selection for government employee type."
+    "description": "Simple casual selection for government employee type.",
+    "message": "Casual"
   },
   "1pk/7X": {
-    "defaultMessage": "Language Information",
-    "description": "Title of the Language Information content section"
+    "description": "Title of the Language Information content section",
+    "message": "Language Information"
   },
   "2Ckihd": {
-    "defaultMessage": "Found <primary>{skillCount}</primary> skills.",
-    "description": "The number of skills found within the skill picker."
+    "description": "The number of skills found within the skill picker.",
+    "message": "Found <primary>{skillCount}</primary> skills."
   },
   "2Ka1oj": {
-    "defaultMessage": "Top secret",
-    "description": "Top secret security clearance"
+    "description": "Top secret security clearance",
+    "message": "Top secret"
   },
   "2W9CMn": {
-    "defaultMessage": "Toggle context",
-    "description": "Label to toggle the context description of a field set."
+    "description": "Label to toggle the context description of a field set.",
+    "message": "Toggle context"
   },
   "2YS4y3": {
-    "defaultMessage": "Level 3: Technical advisor",
-    "description": "The name of the Technical advisor role."
+    "description": "The name of the Technical advisor role.",
+    "message": "Level 3: Technical advisor"
   },
   "2eBm5y": {
-    "defaultMessage": "Successful Completion (Credential Awarded)",
-    "description": "Successful Completion with credential selection for education status input"
+    "description": "Successful Completion with credential selection for education status input",
+    "message": "Successful Completion (Credential Awarded)"
   },
   "2iCpAL": {
-    "defaultMessage": "Accessibility statement",
-    "description": "Title for the websites accessibility statement"
+    "description": "Title for the websites accessibility statement",
+    "message": "Accessibility statement"
   },
   "2ohWuK": {
-    "defaultMessage": "Yes, completed English evaluation",
-    "description": "Completed an English language evaluation"
+    "description": "Completed an English language evaluation",
+    "message": "Yes, completed English evaluation"
   },
   "3JL02L": {
-    "defaultMessage": "Awarded to:",
-    "description": "The award was given to"
+    "description": "The award was given to",
+    "message": "Awarded to:"
   },
   "3Nd6dv": {
-    "defaultMessage": "On this page",
-    "description": "Title for  pages table of contents."
+    "description": "Title for  pages table of contents.",
+    "message": "On this page"
   },
   "3e4sM7": {
-    "defaultMessage": "Location must be filled in or the Remote option selected",
-    "description": "Error message that the pool advertisement must have location filled."
+    "description": "Error message that the pool advertisement must have location filled.",
+    "message": "Location must be filled in or the Remote option selected"
   },
   "3m7hT5": {
-    "defaultMessage": "Business Line Advisory Services",
-    "description": "Pool Stream described as Business Line Advisory Services."
+    "description": "Pool Stream described as Business Line Advisory Services.",
+    "message": "Business Line Advisory Services"
   },
   "3pox8N": {
-    "defaultMessage": "Edit your government information options.",
-    "description": "Link text to edit government information on profile."
+    "description": "Link text to edit government information on profile.",
+    "message": "Edit your government information options."
   },
   "48qVi9": {
-    "defaultMessage": "Other",
-    "description": "user is neither a citizen or permanent resident of Canada"
+    "description": "user is neither a citizen or permanent resident of Canada",
+    "message": "Other"
   },
   "4BpFoX": {
-    "defaultMessage": "{title} issued by {issuedBy}",
-    "description": "The award title is issued by some group"
+    "description": "The award title is issued by some group",
+    "message": "{title} issued by {issuedBy}"
   },
   "4RK/oW": {
-    "defaultMessage": "Visible Minority",
-    "description": "Message for visible minority option in the employment equity section of the request page."
+    "description": "Message for visible minority option in the employment equity section of the request page.",
+    "message": "Visible Minority"
   },
   "4Xa7Pd": {
-    "defaultMessage": "No information has been provided",
-    "description": "Message on Admin side when user not filled Experience section."
+    "description": "Message on Admin side when user not filled Experience section.",
+    "message": "No information has been provided"
   },
   "4dx4ju": {
-    "defaultMessage": "Can accept a combination of work experience and education"
+    "message": "Can accept a combination of work experience and education"
   },
   "4i9X6i": {
-    "defaultMessage": "In Progress",
-    "description": "In Progress selection for education status input"
+    "description": "In Progress selection for education status input",
+    "message": "In Progress"
   },
   "4l+gBD": {
-    "defaultMessage": "Searching...",
-    "description": "Message to display when a search is being done."
+    "description": "Message to display when a search is being done.",
+    "message": "Searching..."
   },
   "4pZrst": {
-    "defaultMessage": "Availability, willingness and ability to travel as required.",
-    "description": "The operational requirement described as travel as required."
+    "description": "The operational requirement described as travel as required.",
+    "message": "Availability, willingness and ability to travel as required."
   },
   "4sJvia": {
-    "defaultMessage": "About Me",
-    "description": "Title of the About link section"
+    "description": "Title of the About link section",
+    "message": "About Me"
   },
   "4uiPHx": {
-    "defaultMessage": "Goto next page",
-    "description": "Aria label for next page button in pagination nav"
+    "description": "Aria label for next page button in pagination nav",
+    "message": "Goto next page"
   },
   "4vQtRT": {
-    "defaultMessage": "International",
-    "description": "The scope of the award was international."
+    "description": "The scope of the award was international.",
+    "message": "International"
   },
   "55rtyE": {
-    "defaultMessage": "IT-03 (Technical advisor)",
-    "description": "The name of the Technical advisor classification with group and level."
+    "description": "The name of the Technical advisor classification with group and level.",
+    "message": "IT-03 (Technical advisor)"
   },
   "56WpMU": {
-    "defaultMessage": "Allow your browser preferences to dictate the website's theme.",
-    "description": "Button text to set no theme mode"
+    "description": "Button text to set no theme mode",
+    "message": "Allow your browser preferences to dictate the website's theme."
   },
   "5APACq": {
-    "defaultMessage": "Edit Government Information",
-    "description": "Text on link to update a users government information."
+    "description": "Text on link to update a users government information.",
+    "message": "Edit Government Information"
   },
   "5LQuV9": {
-    "defaultMessage": "Prince Edward Island",
-    "description": "Prince Edward Island selection for province or territory input"
+    "description": "Prince Edward Island selection for province or territory input",
+    "message": "Prince Edward Island"
   },
   "5WOqlf": {
-    "defaultMessage": "My employment equity information:",
-    "description": "Label preceding what groups the user identifies as part of, followed by a colon"
+    "description": "Label preceding what groups the user identifies as part of, followed by a colon",
+    "message": "My employment equity information:"
   },
   "5d0vbr": {
-    "defaultMessage": "<strong>Yes</strong>, I am a Government of Canada employee.",
-    "description": "Message to state user is employed by government"
+    "description": "Message to state user is employed by government",
+    "message": "<strong>Yes</strong>, I am a Government of Canada employee."
   },
   "5gS1sZ": {
-    "defaultMessage": "Value must be greater than {value}.",
-    "description": "Error message that the provided value must be greater than some referenced minimum value."
+    "description": "Error message that the provided value must be greater than some referenced minimum value.",
+    "message": "Value must be greater than {value}."
   },
   "5owc3a": {
-    "defaultMessage": "English only",
-    "description": "The language requirement is English only."
+    "description": "The language requirement is English only.",
+    "message": "English only"
   },
   "5vrCDC": {
-    "defaultMessage": "I am a Canadian citizen",
-    "description": "declaring one to be a Canadian citizen"
+    "description": "declaring one to be a Canadian citizen",
+    "message": "I am a Canadian citizen"
   },
   "62+Jkh": {
-    "defaultMessage": "Error: name not found.",
-    "description": "Error message when name is not found on listed item."
+    "description": "Error message when name is not found on listed item.",
+    "message": "Error: name not found."
   },
   "6F1rsN": {
-    "defaultMessage": "Bachelors Degree",
-    "description": "Bachelors Degree selection for education type input"
+    "description": "Bachelors Degree selection for education type input",
+    "message": "Bachelors Degree"
   },
   "6FX40U": {
-    "defaultMessage": "Member of a visible minority",
-    "description": "Group for when someone indicates they are a visible minority"
+    "description": "Group for when someone indicates they are a visible minority",
+    "message": "Member of a visible minority"
   },
   "6I3OCB": {
-    "defaultMessage": "Work weekends",
-    "description": "The operational requirement described as work weekends."
+    "description": "The operational requirement described as work weekends.",
+    "message": "Work weekends"
   },
   "6O1sjV": {
-    "defaultMessage": "Cannot update - this user identifier (sub) is already in use.",
-    "description": "Error message that the given user identifier is already in use when updating."
+    "description": "Error message that the given user identifier is already in use when updating.",
+    "message": "Cannot update - this user identifier (sub) is already in use."
   },
   "6RiVQA": {
-    "defaultMessage": "{role} at {division}",
-    "description": "Role at division"
+    "description": "Role at division",
+    "message": "{role} at {division}"
   },
   "6TqakV": {
-    "defaultMessage": "Placed Term",
-    "description": "The pool candidate's status is Placed Term."
+    "description": "The pool candidate's status is Placed Term.",
+    "message": "Placed Term"
   },
   "6VyRZ/": {
-    "defaultMessage": "Personal experiences",
-    "description": "Heading for personal experiences in experience by type listing"
+    "description": "Heading for personal experiences in experience by type listing",
+    "message": "Personal experiences"
   },
   "6eCvv1": {
-    "defaultMessage": "Bilingual positions (English and French)",
-    "description": "Bilingual Positions message"
+    "description": "Bilingual Positions message",
+    "message": "Bilingual positions (English and French)"
   },
   "6fxO9t": {
-    "defaultMessage": "Newfoundland and Labrador",
-    "description": "Newfoundland and Labrador selection for province or territory input"
+    "description": "Newfoundland and Labrador selection for province or territory input",
+    "message": "Newfoundland and Labrador"
   },
   "6iZHGg": {
-    "defaultMessage": "Warning alert:",
-    "description": "Descriptor for a warning alert"
+    "description": "Descriptor for a warning alert",
+    "message": "Warning alert:"
   },
   "6rhyxk": {
-    "defaultMessage": "Logout",
-    "description": "Link text to logout."
+    "description": "Link text to logout.",
+    "message": "Logout"
   },
   "6uce1H": {
-    "defaultMessage": "All skills",
-    "description": "Label for the skill picker family filter"
+    "description": "Label for the skill picker family filter",
+    "message": "All skills"
   },
   "6wCHq2": {
-    "defaultMessage": "Activate dark mode",
-    "description": "Button text to set theme mode to dark"
+    "description": "Button text to set theme mode to dark",
+    "message": "Activate dark mode"
   },
   "76QTNv": {
-    "defaultMessage": "Application is already submitted.",
-    "description": "Error message that the given application is already submitted."
+    "description": "Error message that the given application is already submitted.",
+    "message": "Application is already submitted."
   },
   "7GRDML": {
-    "defaultMessage": "Indigenous",
-    "description": "Message for indigenous option in the employment equity section of the request page."
+    "description": "Message for indigenous option in the employment equity section of the request page.",
+    "message": "Indigenous"
   },
   "7Gg5er": {
-    "defaultMessage": "Travel as required",
-    "description": "The operational requirement described as travel as required. (short-form for limited space)"
+    "description": "The operational requirement described as travel as required. (short-form for limited space)",
+    "message": "Travel as required"
   },
   "8SCmdb": {
-    "defaultMessage": "Software Solutions",
-    "description": "Pool Stream described as Software Solutions."
+    "description": "Pool Stream described as Software Solutions.",
+    "message": "Software Solutions"
   },
   "8WC+Ty": {
-    "defaultMessage": "The deadline for submission has passed.",
-    "description": "Message displayed when a closing date has passed."
+    "description": "Message displayed when a closing date has passed.",
+    "message": "The deadline for submission has passed."
   },
   "8cRL8r": {
-    "defaultMessage": "Permanent duration",
-    "description": "Permanent duration only"
+    "description": "Permanent duration only",
+    "message": "Permanent duration"
   },
   "8sfFGc": {
-    "defaultMessage": "IT-02 (Analyst)",
-    "description": "The name of the Technician Analyst classification with group and level."
+    "description": "The name of the Technician Analyst classification with group and level.",
+    "message": "IT-02 (Analyst)"
   },
   "8stxoN": {
-    "defaultMessage": "Telework",
-    "description": "The work region of Canada described as Telework."
+    "description": "The work region of Canada described as Telework.",
+    "message": "Telework"
   },
   "92hwzj": {
-    "defaultMessage": "Citizenship Status:",
-    "description": "Citizenship status label"
+    "description": "Citizenship status label",
+    "message": "Citizenship Status:"
+  },
+  "95OYVk": {
+    "description": "Title of the Role and salary expectations link section",
+    "message": "Role and salary expectations"
   },
   "9CkDfr": {
-    "defaultMessage": "No skills found.",
-    "description": "Message displayed when no skills were found in skill picker search"
+    "description": "Message displayed when no skills were found in skill picker search",
+    "message": "No skills found."
   },
   "9DCx2n": {
-    "defaultMessage": "Can accept a combination of work experience and education",
-    "description": "Education level message when candidate does not have a diploma found on the request page."
+    "description": "Education level message when candidate does not have a diploma found on the request page.",
+    "message": "Can accept a combination of work experience and education"
   },
   "9WxeNz": {
-    "defaultMessage": "Work Location",
-    "description": "Title of the Work Location link section"
+    "description": "Title of the Work Location link section",
+    "message": "Work Location"
   },
   "9ayzJI": {
-    "defaultMessage": "Atlantic",
-    "description": "The work region of Canada described as Atlantic."
+    "description": "The work region of Canada described as Atlantic.",
+    "message": "Atlantic"
   },
   "9hjEsr": {
-    "defaultMessage": "You have unsaved changes",
-    "description": "Title for unsaved changes warning on profile forms"
+    "description": "Title for unsaved changes warning on profile forms",
+    "message": "You have unsaved changes"
   },
   "9nJi0W": {
-    "defaultMessage": "Activate light mode",
-    "description": "Button text to set theme mode to light"
+    "description": "Button text to set theme mode to light",
+    "message": "Activate light mode"
   },
   "9pdtnR": {
-    "defaultMessage": "You are not entered as a current government employee.",
-    "description": "Message indicating the user is not marked in the system as being federally employed currently"
+    "description": "Message indicating the user is not marked in the system as being federally employed currently",
+    "message": "You are not entered as a current government employee."
   },
   "9rn/MG": {
-    "defaultMessage": "has <strong>shift-work</strong>.",
-    "description": "The operational requirement described as shift work."
+    "description": "The operational requirement described as shift work.",
+    "message": "has <strong>shift-work</strong>."
   },
   "9u6ULg": {
-    "defaultMessage": "You have unsaved changes",
-    "description": "Displayed next to form inputs when they have been changed but not saved."
+    "description": "Displayed next to form inputs when they have been changed but not saved.",
+    "message": "You have unsaved changes"
   },
   "A+dFlE": {
-    "defaultMessage": "Application is already archived.",
-    "description": "Error message that the given application is already archived."
+    "description": "Error message that the given application is already archived.",
+    "message": "Application is already archived."
   },
   "A2KwTw": {
-    "defaultMessage": "1 Skill",
-    "description": "Pluralization for one skill"
+    "description": "Pluralization for one skill",
+    "message": "1 Skill"
   },
   "ACppq6": {
-    "defaultMessage": "Placed Casual",
-    "description": "The pool candidate's status is Placed Casual."
+    "description": "The pool candidate's status is Placed Casual.",
+    "message": "Placed Casual"
   },
   "AF8g2I": {
-    "defaultMessage": "Edit Diversity, Equity and Inclusion",
-    "description": "Text on link to update a users employment equity."
+    "description": "Text on link to update a users employment equity.",
+    "message": "Edit Diversity, Equity and Inclusion"
   },
   "ARqO1j": {
-    "defaultMessage": "Search skills by keyword",
-    "description": "Label for the skills search bar."
+    "description": "Label for the skills search bar.",
+    "message": "Search skills by keyword"
   },
   "AWiMVP": {
-    "defaultMessage": "Contact Us",
-    "description": "Label for the support link in the Footer."
+    "description": "Label for the support link in the Footer.",
+    "message": "Contact Us"
   },
   "AhNR6n": {
-    "defaultMessage": "Cancel",
-    "description": "Link text to cancel logging out."
+    "description": "Link text to cancel logging out.",
+    "message": "Cancel"
   },
   "AhQ6xv": {
-    "defaultMessage": "These required skills are missing from your profile:",
-    "description": "Text that appears when a user is missing required skills on their profile."
+    "description": "Text that appears when a user is missing required skills on their profile.",
+    "message": "These required skills are missing from your profile:"
   },
   "AvBSV+": {
-    "defaultMessage": "Oh no...",
-    "description": "Title displayed for a table error loading state."
+    "description": "Title displayed for a table error loading state.",
+    "message": "Oh no..."
   },
   "B7fcr5": {
-    "defaultMessage": "Loading...",
-    "description": "Title displayed for a table initial loading state."
+    "description": "Title displayed for a table initial loading state.",
+    "message": "Loading..."
   },
   "B89Ihf": {
-    "defaultMessage": "Required application skills",
-    "description": "Title that appears when a user is missing required skills on their profile."
+    "description": "Title that appears when a user is missing required skills on their profile.",
+    "message": "Required application skills"
   },
   "B9x0ZV": {
-    "defaultMessage": "Language Information",
-    "description": "Title of the Language Information link section"
+    "description": "Title of the Language Information link section",
+    "message": "Language Information"
+  },
+  "BPiMTY": {
+    "description": "Link text to edit role and salary expectations on profile.",
+    "message": "Edit your role and salary expectation options."
   },
   "BnnVAv": {
-    "defaultMessage": "Driver's license",
-    "description": "The operational requirement described as driver's license. (short-form for limited space)"
+    "description": "The operational requirement described as driver's license. (short-form for limited space)",
+    "message": "Driver's license"
   },
   "Bvr4b6": {
-    "defaultMessage": "Required",
-    "description": "Displayed next to required form inputs."
+    "description": "Displayed next to required form inputs.",
+    "message": "Required"
   },
   "C/tnCE": {
-    "defaultMessage": "Profile is incomplete",
-    "description": "Message displayed when user attempts to apply to a pool with an incomplete profile"
+    "description": "Message displayed when user attempts to apply to a pool with an incomplete profile",
+    "message": "Profile is incomplete"
   },
   "C7cFDV": {
-    "defaultMessage": "Beginner",
-    "description": "Beginner, skill level"
+    "description": "Beginner, skill level",
+    "message": "Beginner"
   },
   "C8nrGM": {
-    "defaultMessage": "IT Jobs",
-    "description": "The publishing group called IT Jobs"
+    "description": "The publishing group called IT Jobs",
+    "message": "IT Jobs"
+  },
+  "CEzDTC": {
+    "description": "Text on link to update a users role and salary expectations.",
+    "message": "Edit Role and Salary"
   },
   "CFAc15": {
-    "defaultMessage": "requires me to <strong>work weekends</strong>.",
-    "description": "The operational requirement described as work weekends."
+    "description": "The operational requirement described as work weekends.",
+    "message": "requires me to <strong>work weekends</strong>."
   },
   "CJy0kS": {
-    "defaultMessage": "Nice to have skills",
-    "description": "Title that appears when a user is missing optional skills on their profile."
+    "description": "Title that appears when a user is missing optional skills on their profile.",
+    "message": "Nice to have skills"
   },
   "CPRJ61": {
-    "defaultMessage": "ID:",
-    "description": "The ID and colon"
+    "description": "The ID and colon",
+    "message": "ID:"
   },
   "CUi1Ti": {
-    "defaultMessage": "British Columbia",
-    "description": "British Columbia selection for province or territory input"
+    "description": "British Columbia selection for province or territory input",
+    "message": "British Columbia"
   },
   "CVmEkf": {
-    "defaultMessage": "Cannot create - this user identifier (sub) is already in use",
-    "description": "Error message that the given user identifier is already in use when creating."
+    "description": "Error message that the given user identifier is already in use when creating.",
+    "message": "Cannot create - this user identifier (sub) is already in use"
   },
   "CWRRy1": {
-    "defaultMessage": "Taking applications",
-    "description": "Pool Status described as taking applications."
+    "description": "Pool Status described as taking applications.",
+    "message": "Taking applications"
   },
   "CX/qKY": {
-    "defaultMessage": "at {institution}",
-    "description": "Study at institution"
+    "description": "Study at institution",
+    "message": "at {institution}"
   },
   "CnB8IO": {
-    "defaultMessage": "About Me",
-    "description": "Title of the about content section"
+    "description": "Title of the about content section",
+    "message": "About Me"
   },
   "Cx3s+E": {
-    "defaultMessage": "My Status",
-    "description": "Title of the my status content section"
+    "description": "Title of the my status content section",
+    "message": "My Status"
   },
   "D7Qb41": {
-    "defaultMessage": "Second language level (Comprehension, Written, Verbal):",
-    "description": "Evaluation results for second language, results in that order followed by a colon"
+    "description": "Evaluation results for second language, results in that order followed by a colon",
+    "message": "Second language level (Comprehension, Written, Verbal):"
   },
   "D91nGW": {
-    "defaultMessage": "Job title not found.",
-    "description": "Message shown to user when pool name or classification are not found."
+    "description": "Message shown to user when pool name or classification are not found.",
+    "message": "Job title not found."
   },
   "DAmLhV": {
-    "defaultMessage": "Name:",
-    "description": "Name label and colon"
+    "description": "Name label and colon",
+    "message": "Name:"
   },
   "DUuisY": {
-    "defaultMessage": "Yes, completed French evaluation",
-    "description": "Completed a French language evaluation"
+    "description": "Completed a French language evaluation",
+    "message": "Yes, completed French evaluation"
   },
   "DdOEWx": {
-    "defaultMessage": "Error: name not loaded",
-    "description": "Message when name value not found"
+    "description": "Message when name value not found",
+    "message": "Error: name not loaded"
   },
   "Eui2Wf": {
-    "defaultMessage": "My skills and experience",
-    "description": "Title of the My skills and experience content section"
+    "description": "Title of the My skills and experience content section",
+    "message": "My skills and experience"
   },
   "F3/88e": {
-    "defaultMessage": "Edit your work location options.",
-    "description": "Link text to edit work location on profile"
+    "description": "Link text to edit work location on profile",
+    "message": "Edit your work location options."
   },
   "F9R74z": {
-    "defaultMessage": "Work Location",
-    "description": "Title of the Work Location content section"
+    "description": "Title of the Work Location content section",
+    "message": "Work Location"
   },
   "FAOzjP": {
-    "defaultMessage": "Scope:",
-    "description": "The scope of the award given"
+    "description": "The scope of the award given",
+    "message": "Scope:"
   },
   "FEfWEH": {
-    "defaultMessage": "Draft",
-    "description": "The pool candidate's status is Draft."
+    "description": "The pool candidate's status is Draft.",
+    "message": "Draft"
   },
   "FF0ubO": {
-    "defaultMessage": "Edit Work Location",
-    "description": "Text on link to update a users work location."
+    "description": "Text on link to update a users work location.",
+    "message": "Edit Work Location"
   },
   "FTJdsa": {
-    "defaultMessage": "Loading...",
-    "description": "Message to display when a page is loading."
+    "description": "Message to display when a page is loading.",
+    "message": "Loading..."
   },
   "Fc/i3e": {
-    "defaultMessage": "Date Modified: {modifiedDate}",
-    "description": "Header for the sites last date modification found in the footer."
+    "description": "Header for the sites last date modification found in the footer.",
+    "message": "Date Modified: {modifiedDate}"
   },
   "FckGRB": {
-    "defaultMessage": "Consider adding information to these asset skills:",
-    "description": "Text that appears when a user is missing optional skills on their profile"
+    "description": "Text that appears when a user is missing optional skills on their profile",
+    "message": "Consider adding information to these asset skills:"
   },
   "FqsPMv": {
-    "defaultMessage": "Indeterminate",
-    "description": "Duration that is permanent (short-form for limited space)"
+    "description": "Duration that is permanent (short-form for limited space)",
+    "message": "Indeterminate"
   },
   "FrIl8e": {
-    "defaultMessage": "I am a permanent resident of Canada",
-    "description": "declaring one to be a permanent resident"
+    "description": "declaring one to be a permanent resident",
+    "message": "I am a permanent resident of Canada"
   },
   "GHlK/f": {
-    "defaultMessage": "Disability",
-    "description": "Message for disability option in the employment equity section of the request page."
+    "description": "Message for disability option in the employment equity section of the request page.",
+    "message": "Disability"
   },
   "GThNuu": {
-    "defaultMessage": "I would <strong>not consider</strong> accepting a job that:",
-    "description": "would not accept job line before a list, ignore things in <> please"
+    "description": "would not accept job line before a list, ignore things in <> please",
+    "message": "I would <strong>not consider</strong> accepting a job that:"
   },
   "Gc9PeN": {
-    "defaultMessage": "Availability, willingness and ability to work shift-work.",
-    "description": "The operational requirement described as shift work."
+    "description": "The operational requirement described as shift work.",
+    "message": "Availability, willingness and ability to work shift-work."
   },
   "GqmxO8": {
-    "defaultMessage": "Closes tomorrow at {time}",
-    "description": "Text displayed when relative date is tomorrow."
+    "description": "Text displayed when relative date is tomorrow.",
+    "message": "Closes tomorrow at {time}"
   },
   "Gw2JKz": {
-    "defaultMessage": "<strong>Quebec Region:</strong> excluding Gatineau.",
-    "description": "The work region of Canada described as Quebec."
+    "description": "The work region of Canada described as Quebec.",
+    "message": "<strong>Quebec Region:</strong> excluding Gatineau."
   },
   "Gyey3L": {
-    "defaultMessage": "Online Course",
-    "description": "Online Course selection for education type input"
+    "description": "Online Course selection for education type input",
+    "message": "Online Course"
   },
   "GzVxoB": {
-    "defaultMessage": "<strong>Virtual:</strong> Work from home, anywhere in Canada.",
-    "description": "The work region of Canada described as Telework."
+    "description": "The work region of Canada described as Telework.",
+    "message": "<strong>Virtual:</strong> Work from home, anywhere in Canada."
   },
   "H8eisr": {
-    "defaultMessage": "Missing essential skills",
-    "description": "Message displayed when user attempts to apply to a pool without an essential skill"
+    "description": "Message displayed when user attempts to apply to a pool without an essential skill",
+    "message": "Missing essential skills"
   },
   "HMXnoR": {
-    "defaultMessage": "Go back to my application",
-    "description": "Link text for button to return to user application"
+    "description": "Link text for button to return to user application",
+    "message": "Go back to my application"
   },
   "HalXgi": {
-    "defaultMessage": "Nova Scotia",
-    "description": "Nova Scotia selection for province or territory input"
+    "description": "Nova Scotia selection for province or territory input",
+    "message": "Nova Scotia"
   },
   "HkzjEV": {
-    "defaultMessage": "Utility",
-    "description": "Label for the utility link navigation"
+    "description": "Label for the utility link navigation",
+    "message": "Utility"
   },
   "IANM2P": {
-    "defaultMessage": "Placed Indeterminate",
-    "description": "The pool candidate's status is Placed Indeterminate."
+    "description": "The pool candidate's status is Placed Indeterminate.",
+    "message": "Placed Indeterminate"
   },
   "IQviGG": {
-    "defaultMessage": "Pending",
-    "description": "The search status is Pending."
+    "description": "The search status is Pending.",
+    "message": "Pending"
   },
   "IRCKBP": {
-    "defaultMessage": "No results found.",
-    "description": "Message displayed when combobox has no options available"
+    "description": "Message displayed when combobox has no options available",
+    "message": "No results found."
   },
   "IW/eej": {
-    "defaultMessage": "\"I identify as a woman\"",
-    "description": "Statement for when someone indicates they are a woman"
+    "description": "Statement for when someone indicates they are a woman",
+    "message": "\"I identify as a woman\""
   },
   "IlPyP8": {
-    "defaultMessage": "The following error(s) must be fixed before submitting the form:",
-    "description": "Message indicating which errors the form has"
+    "description": "Message indicating which errors the form has",
+    "message": "The following error(s) must be fixed before submitting the form:"
   },
   "J2V3XI": {
-    "defaultMessage": "You are missing a required field: Language requirement",
-    "description": "Error message that the pool advertisement must have an advertisement language."
+    "description": "Error message that the pool advertisement must have an advertisement language.",
+    "message": "You are missing a required field: Language requirement"
   },
   "J30FT0": {
-    "defaultMessage": "Signature is a required field",
-    "description": "Message displayed when user attempts to apply to a pool without a signature"
+    "description": "Message displayed when user attempts to apply to a pool without a signature",
+    "message": "Signature is a required field"
   },
   "JHgARn": {
-    "defaultMessage": "You are over the word limit, {wordLimit}.",
-    "description": "Text read out to assistive technology when over the word limit."
+    "description": "Text read out to assistive technology when over the word limit.",
+    "message": "You are over the word limit, {wordLimit}."
   },
   "JerysR": {
-    "defaultMessage": "By Skills",
-    "description": "Tab title for experiences sorted by skills in applicant profile."
+    "description": "Tab title for experiences sorted by skills in applicant profile.",
+    "message": "By Skills"
   },
   "K80psp": {
-    "defaultMessage": "Other",
-    "description": "Priority text for users with no priority"
+    "description": "Priority text for users with no priority",
+    "message": "Other"
   },
   "KC/sxi": {
-    "defaultMessage": "This field is required.",
-    "description": "Error message that this field must filled for the form to be valid."
+    "description": "Error message that this field must filled for the form to be valid.",
+    "message": "This field is required."
   },
   "KMSWLW": {
-    "defaultMessage": "Open Menu",
-    "description": "Text label for button that opens side menu."
+    "description": "Text label for button that opens side menu.",
+    "message": "Open Menu"
   },
   "KoUKWc": {
-    "defaultMessage": "National Capital",
-    "description": "The work region of Canada described as National Capital."
+    "description": "The work region of Canada described as National Capital.",
+    "message": "National Capital"
   },
   "KzhnAz": {
-    "defaultMessage": "Availability, willingness and ability to work overtime (Occasionally).",
-    "description": "The operational requirement described as occasional overtime."
+    "description": "The operational requirement described as occasional overtime.",
+    "message": "Availability, willingness and ability to work overtime (Occasionally)."
   },
   "L2BR/I": {
-    "defaultMessage": "Three",
-    "description": "Placeholder text for third toggle group option"
+    "description": "Placeholder text for third toggle group option",
+    "message": "Three"
   },
   "L9AGk7": {
-    "defaultMessage": "Edit your about me options.",
-    "description": "Link text to edit about me section on profile."
+    "description": "Link text to edit about me section on profile.",
+    "message": "Edit your about me options."
   },
   "LBNX0O": {
-    "defaultMessage": "Administrator",
-    "description": "The name of the Administrator user role."
+    "description": "The name of the Administrator user role.",
+    "message": "Administrator"
   },
   "LJpdaI": {
-    "defaultMessage": "Provincial",
-    "description": "The scope of the award was provincial."
+    "description": "The scope of the award was provincial.",
+    "message": "Provincial"
   },
   "LZ0Poh": {
-    "defaultMessage": "These skills will be assessed after you submit your application:",
-    "description": "Text that appears in transferable skills section on their profile."
+    "description": "Text that appears in transferable skills section on their profile.",
+    "message": "These skills will be assessed after you submit your application:"
   },
   "LjkK5G": {
-    "defaultMessage": "Behavioural skills",
-    "description": "Tab name for a list of behavioural skills"
+    "description": "Tab name for a list of behavioural skills",
+    "message": "Behavioural skills"
   },
   "LuYmWd": {
-    "defaultMessage": "<strong>Actively looking</strong> - My profile is up to date, I want to be contacted for job opportunities",
-    "description": "Job Looking Status described as Actively looking."
+    "description": "Job Looking Status described as Actively looking.",
+    "message": "<strong>Actively looking</strong> - My profile is up to date, I want to be contacted for job opportunities"
   },
   "Lw0WrP": {
-    "defaultMessage": "Overtime (occasional)",
-    "description": "The operational requirement described as occasional overtime. (short-form for limited space)"
+    "description": "The operational requirement described as occasional overtime. (short-form for limited space)",
+    "message": "Overtime (occasional)"
   },
   "LwZY5H": {
-    "defaultMessage": "Qualified Unavailable",
-    "description": "The pool candidate's status is Qualified Unavailable."
+    "description": "The pool candidate's status is Qualified Unavailable.",
+    "message": "Qualified Unavailable"
   },
   "LzUgil": {
-    "defaultMessage": "Secret or higher",
-    "description": "Secret security clearance"
+    "description": "Secret security clearance",
+    "message": "Secret or higher"
   },
   "M/6+SI": {
-    "defaultMessage": "Inactive",
-    "description": "Job Looking Status described as Actively looking."
+    "description": "Job Looking Status described as Actively looking.",
+    "message": "Inactive"
   },
   "MGqCaE": {
-    "defaultMessage": "Applicant",
-    "description": "The name of the Applicant user role."
+    "description": "The name of the Applicant user role.",
+    "message": "Applicant"
   },
   "MLP6tt": {
-    "defaultMessage": "\"I identify as a person with a disability\"",
-    "description": "Statement for when someone indicates they have a disability"
+    "description": "Statement for when someone indicates they have a disability",
+    "message": "\"I identify as a person with a disability\""
   },
   "MO80Mu": {
-    "defaultMessage": "Add this skill<hidden>: {skillName}</hidden>",
-    "description": "Button label to add the adjacent skill on skill result block."
+    "description": "Button label to add the adjacent skill on skill result block.",
+    "message": "Add this skill<hidden>: {skillName}</hidden>"
   },
   "MWZgsB": {
-    "defaultMessage": "Work Location",
-    "description": "Title for work location section on summary of filters section"
+    "description": "Title for work location section on summary of filters section",
+    "message": "Work Location"
   },
   "Mco0Km": {
-    "defaultMessage": "You must have at least one Essential Skill.",
-    "description": "Error message that at least one Essential Skill is required"
+    "description": "Error message that at least one Essential Skill is required",
+    "message": "You must have at least one Essential Skill."
   },
   "Md/cQS": {
-    "defaultMessage": "Member of CAF:",
-    "description": "Veteran/member label"
+    "description": "Veteran/member label",
+    "message": "Member of CAF:"
   },
   "Mixlw/": {
-    "defaultMessage": "Executive Jobs",
-    "description": "The publishing group called Executive Jobs"
+    "description": "The publishing group called Executive Jobs",
+    "message": "Executive Jobs"
   },
   "Mm+Me1": {
-    "defaultMessage": "Unable to apply to a closed pool",
-    "description": "Message displayed when user attempts to apply to a closed pool"
+    "description": "Message displayed when user attempts to apply to a closed pool",
+    "message": "Unable to apply to a closed pool"
   },
   "MoWNS4": {
-    "defaultMessage": "Location exemptions:",
-    "description": "Location Exemptions label, followed by colon"
+    "description": "Location Exemptions label, followed by colon",
+    "message": "Location exemptions:"
   },
   "MuyuAu": {
-    "defaultMessage": "Current group and classification:",
-    "description": "Field label before government employment group and level, followed by colon"
+    "description": "Field label before government employment group and level, followed by colon",
+    "message": "Current group and classification:"
   },
   "MvSp9b": {
-    "defaultMessage": "Database Management",
-    "description": "Pool Stream described as Database Management."
+    "description": "Pool Stream described as Database Management.",
+    "message": "Database Management"
   },
   "N0hBAG": {
-    "defaultMessage": "Level 3: Team leader",
-    "description": "The name of the Team leader Analyst role."
+    "description": "The name of the Team leader Analyst role.",
+    "message": "Level 3: Team leader"
   },
   "NIEIAC": {
-    "defaultMessage": "No information has been provided.",
-    "description": "Message on Admin side when user not filled about me section."
+    "description": "Message on Admin side when user not filled about me section.",
+    "message": "No information has been provided."
   },
   "NNFXCN": {
-    "defaultMessage": "Removed",
-    "description": "The pool candidate's status is Removed."
+    "description": "The pool candidate's status is Removed.",
+    "message": "Removed"
   },
   "NNMJXo": {
-    "defaultMessage": "North",
-    "description": "The work region of Canada described as North."
+    "description": "The work region of Canada described as North.",
+    "message": "North"
   },
   "NWQ4Rj": {
-    "defaultMessage": "Did not complete",
-    "description": "Did not complete selection for education status input"
+    "description": "Did not complete selection for education status input",
+    "message": "Did not complete"
   },
   "Nc4sjC": {
-    "defaultMessage": "Government Information",
-    "description": "Title of the Government Information link section"
+    "description": "Title of the Government Information link section",
+    "message": "Government Information"
   },
   "NtxfWk": {
-    "defaultMessage": "24/7 on-call",
-    "description": "The operational requirement described as 24/7 on-call. (short-form for limited space)"
+    "description": "The operational requirement described as 24/7 on-call. (short-form for limited space)",
+    "message": "24/7 on-call"
   },
   "O+MHnP": {
-    "defaultMessage": "Bilingual intermediate",
-    "description": "The language requirement is bilingual intermediate."
+    "description": "The language requirement is bilingual intermediate.",
+    "message": "Bilingual intermediate"
   },
   "OBQ8b9": {
-    "defaultMessage": "(opens in new tab)",
-    "description": "Text that appears in links that open in a new tab."
+    "description": "Text that appears in links that open in a new tab.",
+    "message": "(opens in new tab)"
   },
   "OMmTA4": {
-    "defaultMessage": "New Application",
-    "description": "The pool candidate's status is New Application."
+    "description": "The pool candidate's status is New Application.",
+    "message": "New Application"
   },
   "OujTbA": {
-    "defaultMessage": "Required diploma from post-secondary institution"
+    "message": "Required diploma from post-secondary institution"
   },
   "OvJwG6": {
-    "defaultMessage": "Additional information: {details}",
-    "description": "Additional information if provided"
+    "description": "Additional information if provided",
+    "message": "Additional information: {details}"
   },
   "P/tHlt": {
-    "defaultMessage": "By Type",
-    "description": "Tab title for experiences sorted by type in applicant profile."
+    "description": "Tab title for experiences sorted by type in applicant profile.",
+    "message": "By Type"
   },
   "P6PD/I": {
-    "defaultMessage": "Manitoba",
-    "description": "Manitoba selection for province or territory input"
+    "description": "Manitoba selection for province or territory input",
+    "message": "Manitoba"
   },
   "PF4ya+": {
-    "defaultMessage": "e.g. Python, JavaScript, etc.",
-    "description": "Placeholder for the skills search bar."
+    "description": "Placeholder for the skills search bar.",
+    "message": "e.g. Python, JavaScript, etc."
   },
   "PmMr9l": {
-    "defaultMessage": "Employment Duration",
-    "description": "Title for work language on summary of filters section"
+    "description": "Title for work language on summary of filters section",
+    "message": "Employment Duration"
   },
   "QNsonS": {
-    "defaultMessage": "Transferable Skills",
-    "description": "The skill is considered behavioral."
+    "description": "The skill is considered behavioral.",
+    "message": "Transferable Skills"
   },
   "QVdubF": {
-    "defaultMessage": "Member",
-    "description": "user is a CAF member"
+    "description": "user is a CAF member",
+    "message": "Member"
   },
   "QXYMUG": {
-    "defaultMessage": "No definition provided<hidden> for {skillName}</hidden>",
-    "description": "Message displayed when a skill has no definition"
+    "description": "Message displayed when a skill has no definition",
+    "message": "No definition provided<hidden> for {skillName}</hidden>"
   },
   "QZpZQh": {
-    "defaultMessage": "Person with a disability",
-    "description": "Group for when someone indicates they have a disability"
+    "description": "Group for when someone indicates they have a disability",
+    "message": "Person with a disability"
   },
   "QdXUwo": {
-    "defaultMessage": "Go to page:",
-    "description": "Label for pagination input in admin table."
+    "description": "Label for pagination input in admin table.",
+    "message": "Go to page:"
   },
   "QhRU19": {
-    "defaultMessage": "Must possess a valid driver's license or personal mobility to the degree normally associated with possession of a valid driver's license.",
-    "description": "The operational requirement described as driver's license."
+    "description": "The operational requirement described as driver's license.",
+    "message": "Must possess a valid driver's license or personal mobility to the degree normally associated with possession of a valid driver's license."
   },
   "QjOom4": {
-    "defaultMessage": "I am not identified as a member of any employment equity groups.",
-    "description": "Message on Admin side when user not filled DiversityEquityInclusion section."
+    "description": "Message on Admin side when user not filled DiversityEquityInclusion section.",
+    "message": "I am not identified as a member of any employment equity groups."
   },
   "QrKbH+": {
-    "defaultMessage": "Term",
-    "description": "Simple term selection for government employee type."
+    "description": "Simple term selection for government employee type.",
+    "message": "Term"
   },
   "R2BWry": {
-    "defaultMessage": "Screened Out Application",
-    "description": "The pool candidate's status is Screened Out Application"
+    "description": "The pool candidate's status is Screened Out Application",
+    "message": "Screened Out Application"
   },
   "R7CBRQ": {
-    "defaultMessage": "One",
-    "description": "Placeholder text for first toggle group option"
+    "description": "Placeholder text for first toggle group option",
+    "message": "One"
   },
   "RE7o8x": {
-    "defaultMessage": "I am a <strong>student</strong>",
-    "description": "Student selection for government employee type."
+    "description": "Student selection for government employee type.",
+    "message": "I am a <strong>student</strong>"
   },
   "RQGy+0": {
-    "defaultMessage": "Published",
-    "description": "Published pool advertisement status"
+    "description": "Published pool advertisement status",
+    "message": "Published"
   },
   "RQTXLS": {
-    "defaultMessage": "Level 4: Senior advisor",
-    "description": "The name of the Senior advisor role."
+    "description": "The name of the Senior advisor role.",
+    "message": "Level 4: Senior advisor"
   },
   "RRSGnD": {
-    "defaultMessage": "Shift-work",
-    "description": "The operational requirement described as shift work. (short-form for limited space)"
+    "description": "The operational requirement described as shift work. (short-form for limited space)",
+    "message": "Shift-work"
   },
   "RYg7vl": {
-    "defaultMessage": "requires me to <strong>work occasional overtime</strong>.",
-    "description": "The operational requirement described as occasional overtime."
+    "description": "The operational requirement described as occasional overtime.",
+    "message": "requires me to <strong>work occasional overtime</strong>."
   },
   "RaypPP": {
-    "defaultMessage": "English",
-    "description": "The language English."
+    "description": "The language English.",
+    "message": "English"
   },
   "RggAL8": {
-    "defaultMessage": "Edit your diversity, equity and inclusion options.",
-    "description": "Link text to edit diversity, equity and inclusion information on profile."
+    "description": "Link text to edit diversity, equity and inclusion information on profile.",
+    "message": "Edit your diversity, equity and inclusion options."
   },
   "RkxqoB": {
-    "defaultMessage": "Date must not be before {value}.",
-    "description": "Error message that the date provided must follow and not precede some referenced date"
+    "description": "Error message that the date provided must follow and not precede some referenced date",
+    "message": "Date must not be before {value}."
   },
   "Rn5e/i": {
-    "defaultMessage": "Group and level",
-    "description": "Title for group and level on summary of filters section"
+    "description": "Title for group and level on summary of filters section",
+    "message": "Group and level"
   },
   "RnSbKI": {
-    "defaultMessage": "Reliability or higher",
-    "description": "Reliability security clearance"
+    "description": "Reliability security clearance",
+    "message": "Reliability or higher"
   },
   "Rv5vo7": {
-    "defaultMessage": "Goto Page {pageNumber}",
-    "description": "Aria label for each button in pagination nav"
+    "description": "Aria label for each button in pagination nav",
+    "message": "Goto Page {pageNumber}"
   },
   "Rwh/Ld": {
-    "defaultMessage": "Indeterminate",
-    "description": "Simple indeterminate selection for government employee type."
+    "description": "Simple indeterminate selection for government employee type.",
+    "message": "Indeterminate"
   },
   "S9BRBL": {
-    "defaultMessage": "Term duration (short term, long term)",
-    "description": "Duration of a non-permanent length"
+    "description": "Duration of a non-permanent length",
+    "message": "Term duration (short term, long term)"
   },
   "S9lNLG": {
-    "defaultMessage": "Edit your language information options.",
-    "description": "Link text to edit language information on profile."
+    "description": "Link text to edit language information on profile.",
+    "message": "Edit your language information options."
   },
   "SCCX7B": {
-    "defaultMessage": "You haven't added any information here yet.",
-    "description": "Message for when no data exists for the section"
+    "description": "Message for when no data exists for the section",
+    "message": "You haven't added any information here yet."
   },
   "SGcina": {
-    "defaultMessage": "Hide definition<hidden> for {skillName}</hidden>",
-    "description": "Text displayed when skill block is open."
+    "description": "Text displayed when skill block is open.",
+    "message": "Hide definition<hidden> for {skillName}</hidden>"
   },
   "SUYPIt": {
-    "defaultMessage": "Too many requests, please wait a minute and try again.",
-    "description": "Message displayed when number of user attempts exceeds rate limit"
+    "description": "Message displayed when number of user attempts exceeds rate limit",
+    "message": "Too many requests, please wait a minute and try again."
   },
   "SY1LIh": {
-    "defaultMessage": "Main menu",
-    "description": "Label for the main navigation"
+    "description": "Label for the main navigation",
+    "message": "Main menu"
+  },
+  "Srs7a4": {
+    "description": "Assistive technology skip link",
+    "message": "Skip to main content"
   },
   "Ss95s5": {
-    "defaultMessage": "Success alert:",
-    "description": "Descriptor for a success alert"
+    "description": "Descriptor for a success alert",
+    "message": "Success alert:"
   },
   "SvcqPG": {
-    "defaultMessage": "Alberta",
-    "description": "Alberta selection for province or territory input"
+    "description": "Alberta selection for province or territory input",
+    "message": "Alberta"
   },
   "T49QiO": {
-    "defaultMessage": "Employment type:",
-    "description": "Label for applicant's employment type"
+    "description": "Label for applicant's employment type",
+    "message": "Employment type:"
   },
   "TLgbZm": {
-    "defaultMessage": "My Status",
-    "description": "Title of the My Status section"
+    "description": "Title of the My Status section",
+    "message": "My Status"
   },
   "TNmGTd": {
-    "defaultMessage": "Local",
-    "description": "The scope of the award was local."
+    "description": "The scope of the award was local.",
+    "message": "Local"
   },
   "TO/Q6I": {
-    "defaultMessage": "Woman",
-    "description": "Group for when someone indicates they are a woman"
+    "description": "Group for when someone indicates they are a woman",
+    "message": "Woman"
   },
   "TR0Kxz": {
-    "defaultMessage": "<strong>Open to opportunities</strong> - Not actively looking but I still want to be contacted for job opportunities",
-    "description": "Job Looking Status described as Open to opportunities."
+    "description": "Job Looking Status described as Open to opportunities.",
+    "message": "<strong>Open to opportunities</strong> - Not actively looking but I still want to be contacted for job opportunities"
   },
   "TjeaLS": {
-    "defaultMessage": "This application cannot be archived. You can only archive expired applications.",
-    "description": "Error message that the application cannot be archived."
+    "description": "Error message that the application cannot be archived.",
+    "message": "This application cannot be archived. You can only archive expired applications."
   },
   "TmCffZ": {
-    "defaultMessage": "Interested in:",
-    "description": "Interested in label and colon"
+    "description": "Interested in label and colon",
+    "message": "Interested in:"
   },
   "Tw90Pi": {
-    "defaultMessage": "Saving...",
-    "description": "Submitting text for save button."
+    "description": "Submitting text for save button.",
+    "message": "Saving..."
   },
   "U/Lv8i": {
-    "defaultMessage": "Unknown Experience",
-    "description": "Title for unknown experiences"
+    "description": "Title for unknown experiences",
+    "message": "Unknown Experience"
   },
   "UCGAzS": {
-    "defaultMessage": "N/A",
-    "description": "displayed when localized string not available"
+    "description": "displayed when localized string not available",
+    "message": "N/A"
   },
   "UOO1gW": {
-    "defaultMessage": "Yes",
-    "description": "Message for when a value is true"
+    "description": "Message for when a value is true",
+    "message": "Yes"
   },
   "UPx6kk": {
-    "defaultMessage": "<primary>{title}</primary> at {organization}",
-    "description": "Title at organization"
+    "description": "Title at organization",
+    "message": "<primary>{title}</primary> at {organization}"
   },
   "Uk0WG0": {
-    "defaultMessage": "Organizational",
-    "description": "The scope of the award was organizational."
+    "description": "The scope of the award was organizational.",
+    "message": "Organizational"
   },
   "UrsGGK": {
-    "defaultMessage": "{areaOfStudy} at {institution}",
-    "description": "Study at institution"
+    "description": "Study at institution",
+    "message": "{areaOfStudy} at {institution}"
   },
   "V3ReC1": {
-    "defaultMessage": "Consider adding these asset skills to your profile:",
-    "description": "Text that appears when a user is missing optional skills on their profile"
+    "description": "Text that appears when a user is missing optional skills on their profile",
+    "message": "Consider adding these asset skills to your profile:"
   },
   "V89Ryn": {
-    "defaultMessage": "Work Preferences",
-    "description": "Title of the Work Preferences content section"
+    "description": "Title of the Work Preferences content section",
+    "message": "Work Preferences"
   },
   "VOheZB": {
-    "defaultMessage": "<primary>{role}</primary> at {organization}",
-    "description": "Role at organization in work experience block of skill accordion."
+    "description": "Role at organization in work experience block of skill accordion.",
+    "message": "<primary>{role}</primary> at {organization}"
   },
   "VX3Og5": {
-    "defaultMessage": "Work language ability",
-    "description": "Title for work language on summary of filters section"
+    "description": "Title for work language on summary of filters section",
+    "message": "Work language ability"
   },
   "Vbw1ES": {
-    "defaultMessage": "Edit Language Information",
-    "description": "Text on link to update a users language information."
+    "description": "Text on link to update a users language information.",
+    "message": "Edit Language Information"
   },
   "Vc9vE7": {
-    "defaultMessage": "I would consider accepting a job that lasts for:",
-    "description": "Label for what length of position user prefers, followed by colon"
+    "description": "Label for what length of position user prefers, followed by colon",
+    "message": "I would consider accepting a job that lasts for:"
   },
   "VcOlXA": {
-    "defaultMessage": "Privacy Policy",
-    "description": "Label for the privacy link in the Footer."
+    "description": "Label for the privacy link in the Footer.",
+    "message": "Privacy Policy"
   },
   "VqrVpT": {
-    "defaultMessage": "Cannot update - this email address is already in use.",
-    "description": "Error message that the given email address is already in use when updating."
+    "description": "Error message that the given email address is already in use when updating.",
+    "message": "Cannot update - this email address is already in use."
   },
   "W1Kt8D": {
-    "defaultMessage": "Level 2: Analyst",
-    "description": "The name of the Technician Analyst role."
+    "description": "The name of the Technician Analyst role.",
+    "message": "Level 2: Analyst"
   },
   "W6Jh6N": {
-    "defaultMessage": "Remove this skill<hidden>: {skillName}</hidden>",
-    "description": "Button label to remove the adjacent skill on skill result block."
+    "description": "Button label to remove the adjacent skill on skill result block.",
+    "message": "Remove this skill<hidden>: {skillName}</hidden>"
   },
   "WC5em7": {
-    "defaultMessage": "My Organization",
-    "description": "The award was given to my organization."
+    "description": "The award was given to my organization.",
+    "message": "My Organization"
   },
   "WPJrmN": {
-    "defaultMessage": "{wordsLeft, plural, one {word over limit} other {words over limit}}.",
-    "description": "Message for when user goes over word limit."
+    "description": "Message for when user goes over word limit.",
+    "message": "{wordsLeft, plural, one {word over limit} other {words over limit}}."
   },
   "WUAAr1": {
-    "defaultMessage": "Cannot create - this email address is already in use.",
-    "description": "Error message that the given user identifier is already in use when creating."
+    "description": "Error message that the given user identifier is already in use when creating.",
+    "message": "Cannot create - this email address is already in use."
   },
   "WUC9pX": {
-    "defaultMessage": "Optional",
-    "description": "Displayed next to optional form inputs."
+    "description": "Displayed next to optional form inputs.",
+    "message": "Optional"
   },
   "WYLjD1": {
-    "defaultMessage": "Work overtime on short notice",
-    "description": "The operational requirement described as short notice overtime. (short-form for limited space)"
+    "description": "The operational requirement described as short notice overtime. (short-form for limited space)",
+    "message": "Work overtime on short notice"
   },
   "WcXADs": {
-    "defaultMessage": "English only",
-    "description": "The language ability is English only."
+    "description": "The language ability is English only.",
+    "message": "English only"
   },
   "WtwED/": {
-    "defaultMessage": "See definition<hidden> for {skillName}</hidden>",
-    "description": "Text displayed when skill block is closed."
+    "description": "Text displayed when skill block is closed.",
+    "message": "See definition<hidden> for {skillName}</hidden>"
   },
   "Wwb8Lb": {
-    "defaultMessage": "Theme colour mode switcher",
-    "description": "Label for the group of buttons to change the current colour mode"
+    "description": "Label for the group of buttons to change the current colour mode",
+    "message": "Theme colour mode switcher"
   },
   "X/hYMf": {
-    "defaultMessage": "has <strong>24/7 on call-shifts</strong>.",
-    "description": "The operational requirement described as 24/7 on-call."
+    "description": "The operational requirement described as 24/7 on-call.",
+    "message": "has <strong>24/7 on call-shifts</strong>."
   },
   "X0YPib": {
-    "defaultMessage": "Award experiences",
-    "description": "Heading for award experiences in experience by type listing"
+    "description": "Heading for award experiences in experience by type listing",
+    "message": "Award experiences"
   },
   "XNDPQM": {
-    "defaultMessage": "You are missing a required field: End Date",
-    "description": "Error message that the pool advertisement must have an expiry date."
+    "description": "Error message that the pool advertisement must have an expiry date.",
+    "message": "You are missing a required field: End Date"
   },
   "XTuwjA": {
-    "defaultMessage": "This skill family key string is already in use",
-    "description": "Error message that the given skill family key is already in use."
+    "description": "Error message that the given skill family key is already in use.",
+    "message": "This skill family key string is already in use"
   },
   "XTw9Me": {
-    "defaultMessage": "Expired",
-    "description": "The pool candidate's status is Expired."
+    "description": "The pool candidate's status is Expired.",
+    "message": "Expired"
   },
   "XerShr": {
-    "defaultMessage": "Actively looking",
-    "description": "Job Looking Status described as Actively looking."
+    "description": "Job Looking Status described as Actively looking.",
+    "message": "Actively looking"
   },
   "XpK4rL": {
-    "defaultMessage": "Availability, willingness and ability to transport, lift and set down equipment weighing up to 20kg.",
-    "description": "The operational requirement described as transport equipment up to 20kg."
+    "description": "The operational requirement described as transport equipment up to 20kg.",
+    "message": "Availability, willingness and ability to transport, lift and set down equipment weighing up to 20kg."
   },
   "XqFhIa": {
-    "defaultMessage": "Edit Skills and Experience",
-    "description": "Text on link to update a users skills and experiences."
+    "description": "Text on link to update a users skills and experiences.",
+    "message": "Edit Skills and Experience"
   },
   "Xtu3HH": {
-    "defaultMessage": "New Brunswick",
-    "description": "New Brunswick selection for province or territory input"
+    "description": "New Brunswick selection for province or territory input",
+    "message": "New Brunswick"
   },
   "Y87WVR": {
-    "defaultMessage": "I am not a member of the CAF",
-    "description": "declare self to not be in the CAF"
+    "description": "declare self to not be in the CAF",
+    "message": "I am not a member of the CAF"
   },
   "YFPM7a": {
-    "defaultMessage": "I have a <strong>casual</strong> contract",
-    "description": "Casual selection for government employee type."
+    "description": "Casual selection for government employee type.",
+    "message": "I have a <strong>casual</strong> contract"
   },
   "YHqVoj": {
-    "defaultMessage": "Submit",
-    "description": "Default text for submit button."
+    "description": "Default text for submit button.",
+    "message": "Submit"
   },
   "YKqt+1": {
-    "defaultMessage": "Education Level",
-    "description": "Title for education level on summary of filters section"
+    "description": "Title for education level on summary of filters section",
+    "message": "Education Level"
   },
   "YVLfw+": {
-    "defaultMessage": "I am an <strong>indeterminate</strong> employee",
-    "description": "Indeterminate selection for government employee type."
+    "description": "Indeterminate selection for government employee type.",
+    "message": "I am an <strong>indeterminate</strong> employee"
   },
   "Yq2EZj": {
-    "defaultMessage": "Application Review",
-    "description": "The pool candidate's status is Application Review."
+    "description": "The pool candidate's status is Application Review.",
+    "message": "Application Review"
   },
   "Z+6NCp": {
-    "defaultMessage": "Sub-Organizational (Branch)",
-    "description": "The scope of the award was sub-organizational (branch)."
+    "description": "The scope of the award was sub-organizational (branch).",
+    "message": "Sub-Organizational (Branch)"
   },
   "Z3h103": {
-    "defaultMessage": "<hidden>Changer la langue en </hidden>Français",
-    "description": "Title for the language toggle link."
+    "description": "Title for the language toggle link.",
+    "message": "<hidden>Changer la langue en </hidden>Français"
   },
   "ZE77nf": {
-    "defaultMessage": "Canada.ca",
-    "description": "Label for the Canada link in the Footer."
+    "description": "Label for the Canada link in the Footer.",
+    "message": "Canada.ca"
   },
   "ZEsIZi": {
-    "defaultMessage": "No",
-    "description": "No, did not complete a language evaluation"
+    "description": "No, did not complete a language evaluation",
+    "message": "No"
   },
   "ZGpncy": {
-    "defaultMessage": "Terms & Conditions",
-    "description": "Label for the terms and conditions link in the Footer."
+    "description": "Label for the terms and conditions link in the Footer.",
+    "message": "Terms & Conditions"
   },
   "ZLPqdF": {
-    "defaultMessage": "No first name provided",
-    "description": "Fallback for first name value"
+    "description": "Fallback for first name value",
+    "message": "No first name provided"
   },
   "ZSAzrR": {
-    "defaultMessage": "Expiry Date:",
-    "description": "The expiry date label and colon"
+    "description": "The expiry date label and colon",
+    "message": "Expiry Date:"
   },
   "ZUO1OX": {
-    "defaultMessage": "Priority number:",
-    "description": "Label for applicant's priority number value"
+    "description": "Label for applicant's priority number value",
+    "message": "Priority number:"
   },
   "ZWR/F3": {
-    "defaultMessage": "French only",
-    "description": "The language requirement is French only."
+    "description": "The language requirement is French only.",
+    "message": "French only"
   },
   "ZcvDAo": {
-    "defaultMessage": "There are <red>required</red> fields missing.",
-    "description": "Message that there are required fields missing. Please ignore things in <> tags."
+    "description": "Message that there are required fields missing. Please ignore things in <> tags.",
+    "message": "There are <red>required</red> fields missing."
   },
   "ZhQEUx": {
-    "defaultMessage": "This field must use future dates only.",
-    "description": "Error message that the provided date must be in the future."
+    "description": "Error message that the provided date must be in the future.",
+    "message": "This field must use future dates only."
   },
   "Zhm9yQ": {
-    "defaultMessage": "Audited",
-    "description": "Audited selection for education status input"
+    "description": "Audited selection for education status input",
+    "message": "Audited"
   },
   "ZlEEjR": {
-    "defaultMessage": "Planning and Reporting",
-    "description": "Pool Stream described as Planning and Reporting."
+    "description": "Pool Stream described as Planning and Reporting.",
+    "message": "Planning and Reporting"
   },
   "Zm9Hnf": {
-    "defaultMessage": "Since: {d1}",
-    "description": "Since"
+    "description": "Since",
+    "message": "Since: {d1}"
   },
   "ZuSEII": {
-    "defaultMessage": "Type of opportunity",
-    "description": "Title for type of opportunity section on summary of filters section"
+    "description": "Title for type of opportunity section on summary of filters section",
+    "message": "Type of opportunity"
   },
   "aBSEkP": {
-    "defaultMessage": "Work experiences",
-    "description": "Heading for personal experiences in experience by type listing"
+    "description": "Heading for personal experiences in experience by type listing",
+    "message": "Work experiences"
   },
   "aMkZ80": {
-    "defaultMessage": "You must fill Specific Location in English and French if advertisement is not remote.",
-    "description": "Error message that advertisement locations must be filled in English and French."
+    "description": "Error message that advertisement locations must be filled in English and French.",
+    "message": "You must fill Specific Location in English and French if advertisement is not remote."
   },
   "ad4CnG": {
-    "defaultMessage": "Draft Expired",
-    "description": "The pool candidate's status is Expired Draft."
+    "description": "The pool candidate's status is Expired Draft.",
+    "message": "Draft Expired"
   },
   "adbcoS": {
-    "defaultMessage": "This field must follow the pattern +123243234.",
-    "description": "Error message that the field must contain a phone number validated by the specified pattern."
+    "description": "Error message that the field must contain a phone number validated by the specified pattern.",
+    "message": "This field must follow the pattern +123243234."
   },
   "azOv8A": {
-    "defaultMessage": "Phone:",
-    "description": "Phone label and colon"
+    "description": "Phone label and colon",
+    "message": "Phone:"
   },
   "b02Azd": {
-    "defaultMessage": "IT-04 (Manager)",
-    "description": "The name of the Senior advisor classification with group and level."
+    "description": "The name of the Senior advisor classification with group and level.",
+    "message": "IT-04 (Manager)"
   },
   "b3ar1X": {
-    "defaultMessage": "Reset {label}",
-    "description": "Button text to reset the combobox input"
+    "description": "Button text to reset the combobox input",
+    "message": "Reset {label}"
   },
   "b5bUa0": {
-    "defaultMessage": "Work location:",
-    "description": "Work Location label, followed by colon"
+    "description": "Work Location label, followed by colon",
+    "message": "Work location:"
   },
   "bEwwY/": {
-    "defaultMessage": "Preferred Communication Language:",
-    "description": "Preferred Language for communication purposes label and colon"
+    "description": "Preferred Language for communication purposes label and colon",
+    "message": "Preferred Communication Language:"
   },
   "baPSLH": {
-    "defaultMessage": "Successful Completion (No Credential Awarded)",
-    "description": "Successful Completion with no credentials for education status input"
+    "description": "Successful Completion with no credentials for education status input",
+    "message": "Successful Completion (No Credential Awarded)"
   },
   "c39xT8": {
-    "defaultMessage": "Edit your experience options.",
-    "description": "Link text to edit experience information on profile."
+    "description": "Link text to edit experience information on profile.",
+    "message": "Edit your experience options."
   },
   "c4r/Zv": {
-    "defaultMessage": "No skills have been linked to this experience yet.",
-    "description": "A message explaining that the experience has no associated skills"
+    "description": "A message explaining that the experience has no associated skills",
+    "message": "No skills have been linked to this experience yet."
+  },
+  "c7At4h": {
+    "description": "Preferred Language for interviews label and colon",
+    "message": "Preferred Spoken Interview Language:"
   },
   "cEB0aW": {
-    "defaultMessage": "requires me to <strong>work regular overtime</strong>.",
-    "description": "The operational requirement described as regular overtime."
+    "description": "The operational requirement described as regular overtime.",
+    "message": "requires me to <strong>work regular overtime</strong>."
   },
   "cK/hoN": {
-    "defaultMessage": "<primary>{title}</primary> issued by {issuedBy}",
-    "description": "The award title is issued by some group"
+    "description": "The award title is issued by some group",
+    "message": "<primary>{title}</primary> issued by {issuedBy}"
   },
   "cMsRgt": {
-    "defaultMessage": "Conditions of employment / Operational requirements",
-    "description": "Title for operational requirements section on summary of filters section"
+    "description": "Title for operational requirements section on summary of filters section",
+    "message": "Conditions of employment / Operational requirements"
   },
   "cnFVR1": {
-    "defaultMessage": "requires me to <strong>work overtime on short notice</strong>.",
-    "description": "The operational requirement described as overtime."
+    "description": "The operational requirement described as overtime.",
+    "message": "requires me to <strong>work overtime on short notice</strong>."
   },
   "coUese": {
-    "defaultMessage": "Project Portfolio Management",
-    "description": "Pool Stream described as Project Portfolio Management."
+    "description": "Pool Stream described as Project Portfolio Management.",
+    "message": "Project Portfolio Management"
   },
   "csLjMi": {
-    "defaultMessage": "Closing date must be after today.",
-    "description": "Error message that the given skill closing date must be after today."
+    "description": "Error message that the given skill closing date must be after today.",
+    "message": "Closing date must be after today."
   },
   "dIZ4oj": {
-    "defaultMessage": "requires me to <strong>transport, lift and set down equipment weighing up to 20kg</strong>.",
-    "description": "The operational requirement described as transport equipment up to 20kg."
+    "description": "The operational requirement described as transport equipment up to 20kg.",
+    "message": "requires me to <strong>transport, lift and set down equipment weighing up to 20kg</strong>."
   },
   "dQseX7": {
-    "defaultMessage": "1 Experience",
-    "description": "Pluralization for one experience"
+    "description": "Pluralization for one experience",
+    "message": "1 Experience"
   },
   "dnGlXQ": {
-    "defaultMessage": "Screened In",
-    "description": "The pool candidate's status is Screened In."
+    "description": "The pool candidate's status is Screened In.",
+    "message": "Screened In"
   },
   "drr0f7": {
-    "defaultMessage": "Goto previous page",
-    "description": "Aria label for previous page button in pagination nav"
+    "description": "Aria label for previous page button in pagination nav",
+    "message": "Goto previous page"
   },
   "duwt+A": {
-    "defaultMessage": "requires me to <strong>have a valid driver's license</strong> or personal mobility to the degree normally associated with the possession of a valid driver's license.",
-    "description": "The operational requirement described as driver's license."
+    "description": "The operational requirement described as driver's license.",
+    "message": "requires me to <strong>have a valid driver's license</strong> or personal mobility to the degree normally associated with the possession of a valid driver's license."
   },
   "e2R6fy": {
-    "defaultMessage": "Diversity, equity and inclusion",
-    "description": "Title of the Diversity, equity and inclusion link section"
+    "description": "Title of the Diversity, equity and inclusion link section",
+    "message": "Diversity, equity and inclusion"
+  },
+  "e2Rfn/": {
+    "description": "Label for Role and salary expectations sections",
+    "message": "I would like to be referred for jobs at the following levels:"
   },
   "eFCDP4": {
-    "defaultMessage": "Edit your work preference options.",
-    "description": "Link text to edit work preferences on profile"
+    "description": "Link text to edit work preferences on profile",
+    "message": "Edit your work preference options."
   },
   "eGg734": {
-    "defaultMessage": "Other",
-    "description": "Other selection for education type input"
+    "description": "Other selection for education type input",
+    "message": "Other"
   },
   "eLXTfi": {
-    "defaultMessage": "I am not a current government employee.",
-    "description": "Message indicating the user is not marked in the system as being federally employed currently"
+    "description": "Message indicating the user is not marked in the system as being federally employed currently",
+    "message": "I am not a current government employee."
   },
   "eYak7E": {
-    "defaultMessage": "<strong>National Capital Region:</strong> Ottawa, ON and Gatineau, QC.",
-    "description": "The work region of Canada described as National Capital."
+    "description": "The work region of Canada described as National Capital.",
+    "message": "<strong>National Capital Region:</strong> Ottawa, ON and Gatineau, QC."
   },
   "edeLyW": {
-    "defaultMessage": "Sorry, we encountered an error.",
-    "description": "Title for the unexpected error page."
+    "description": "Title for the unexpected error page.",
+    "message": "Sorry, we encountered an error."
   },
   "euwgms": {
-    "defaultMessage": "You are missing a required field: French - Your work",
-    "description": "Error message that Work Tasks in French must be filled"
+    "description": "Error message that Work Tasks in French must be filled",
+    "message": "You are missing a required field: French - Your work"
   },
   "fFznH0": {
-    "defaultMessage": "English or French positions",
-    "description": "English or French Positions message"
+    "description": "English or French Positions message",
+    "message": "English or French positions"
   },
   "fNOekV": {
-    "defaultMessage": "My hiring pools",
-    "description": "Title of the my hiring pools content section"
+    "description": "Title of the my hiring pools content section",
+    "message": "My hiring pools"
   },
   "fSBslq": {
-    "defaultMessage": "Page size",
-    "description": "Label for the number of items to display on each page."
+    "description": "Label for the number of items to display on each page.",
+    "message": "Page size"
   },
   "fqIEKE": {
-    "defaultMessage": "My skills and experience",
-    "description": "Title of the My skills and experience link section"
+    "description": "Title of the My skills and experience link section",
+    "message": "My skills and experience"
   },
   "g08hvq": {
-    "defaultMessage": "Step 1",
-    "description": "Breadcrumb back to review application page."
+    "description": "Breadcrumb back to review application page.",
+    "message": "Step 1"
   },
   "g2X8Fx": {
-    "defaultMessage": "Close dialog",
-    "description": "Text for the button to close a modal dialog."
-  },
-  "gD3yqV": {
-    "defaultMessage": "Skills",
-    "description": "Title for skills section on summary of filters section"
+    "description": "Text for the button to close a modal dialog.",
+    "message": "Close dialog"
   },
   "gWEfA9": {
-    "defaultMessage": "You have not been accepted into any hiring pools yet.",
-    "description": "Message for if user not part of any hiring pools"
+    "description": "Message for if user not part of any hiring pools",
+    "message": "You have not been accepted into any hiring pools yet."
   },
   "gpcHeU": {
-    "defaultMessage": "Canada.ca",
-    "description": "Alt text for the Canada logo link in the Header."
+    "description": "Alt text for the Canada logo link in the Header.",
+    "message": "Canada.ca"
   },
   "gtLuDM": {
-    "defaultMessage": "Project: {project}",
-    "description": "Project Name"
+    "description": "Project Name",
+    "message": "Project: {project}"
   },
   "gz2VrQ": {
-    "defaultMessage": "Intermediate",
-    "description": "Intermediate, skill level"
+    "description": "Intermediate, skill level",
+    "message": "Intermediate"
   },
   "h3lIyO": {
-    "defaultMessage": "French",
-    "description": "The language French."
+    "description": "The language French.",
+    "message": "French"
   },
   "hDupu9": {
-    "defaultMessage": "Edit your skill and experience options.",
-    "description": "Link text for editing skills and experiences on profile."
+    "description": "Link text for editing skills and experiences on profile.",
+    "message": "Edit your skill and experience options."
   },
   "i9AjuX": {
-    "defaultMessage": "N/A",
-    "description": "Text shown when the filter was not selected"
+    "description": "Text shown when the filter was not selected",
+    "message": "N/A"
   },
   "iWD2Pz": {
-    "defaultMessage": "Community experiences",
-    "description": "Heading for community experiences in experience by type listing"
+    "description": "Heading for community experiences in experience by type listing",
+    "message": "Community experiences"
   },
   "iYot5P": {
-    "defaultMessage": "Enterprise Architecture",
-    "description": "Pool Stream described as Enterprise Architecture."
+    "description": "Pool Stream described as Enterprise Architecture.",
+    "message": "Enterprise Architecture"
   },
   "inzzdo": {
-    "defaultMessage": "Diversity, equity and inclusion",
-    "description": "Title of the Diversity, equity and inclusion content section"
+    "description": "Title of the Diversity, equity and inclusion content section",
+    "message": "Diversity, equity and inclusion"
   },
   "iqD8qE": {
-    "defaultMessage": "Unknown error",
-    "description": "Fallback text when an error message is not supplied"
+    "description": "Fallback text when an error message is not supplied",
+    "message": "Unknown error"
   },
   "ivKwx0": {
-    "defaultMessage": "Logout",
-    "description": "Title for the modal that appears when an authenticated user attempts to logout"
+    "description": "Title for the modal that appears when an authenticated user attempts to logout",
+    "message": "Logout"
   },
   "j1p7LR": {
-    "defaultMessage": "Priority Entitlement",
-    "description": "Priority text for users with priority entitlement"
+    "description": "Priority text for users with priority entitlement",
+    "message": "Priority Entitlement"
   },
   "j6WJBY": {
-    "defaultMessage": "{wordsLeft, plural, one {word left} other {words left}}.",
-    "description": "Message for when user goes over word limit."
+    "description": "Message for when user goes over word limit.",
+    "message": "{wordsLeft, plural, one {word left} other {words left}}."
   },
   "jHa7VO": {
-    "defaultMessage": "Infrastructure Operations",
-    "description": "Pool Stream described as Infrastructure Operations."
+    "description": "Pool Stream described as Infrastructure Operations.",
+    "message": "Infrastructure Operations"
   },
   "jNo5Zk": {
-    "defaultMessage": "Prairie",
-    "description": "The work region of Canada described as Prairie."
+    "description": "The work region of Canada described as Prairie.",
+    "message": "Prairie"
   },
   "jRmRd+": {
-    "defaultMessage": "GC Digital Talent is the new recruitment platform for digital and tech jobs in the Government of Canada. Apply now!",
-    "description": "Meta tag description for Talent Search site"
+    "description": "Meta tag description for Talent Search site",
+    "message": "GC Digital Talent is the new recruitment platform for digital and tech jobs in the Government of Canada. Apply now!"
   },
   "jS69se": {
-    "defaultMessage": "Certification",
-    "description": "Certification selection for education type input"
+    "description": "Certification selection for education type input",
+    "message": "Certification"
   },
   "janplU": {
-    "defaultMessage": "Bilingual (English and French)",
-    "description": "The language ability is bilingual - both English and French."
+    "description": "The language ability is bilingual - both English and French.",
+    "message": "Bilingual (English and French)"
   },
   "jfwk14": {
-    "defaultMessage": "Diploma",
-    "description": "Diploma selection for education type input"
+    "description": "Diploma selection for education type input",
+    "message": "Diploma"
   },
   "jhImZp": {
-    "defaultMessage": "Toggle context",
-    "description": "Label to toggle the context description of an input."
+    "description": "Label to toggle the context description of an input.",
+    "message": "Toggle context"
   },
   "ju5h1m": {
-    "defaultMessage": "Advanced",
-    "description": "Advanced, skill level"
+    "description": "Advanced, skill level",
+    "message": "Advanced"
   },
   "juklNA": {
-    "defaultMessage": "You are missing a required field: English - Your impact",
-    "description": "Error message that Your Impact in English must be filled"
+    "description": "Error message that Your Impact in English must be filled",
+    "message": "You are missing a required field: English - Your impact"
   },
   "jwPlv1": {
-    "defaultMessage": "Term",
-    "description": "Duration of a non-permanent length (short-form for limited space)"
+    "description": "Duration of a non-permanent length (short-form for limited space)",
+    "message": "Term"
   },
   "jy7itR": {
-    "defaultMessage": "Closes today at {time}",
-    "description": "Text displayed when relative date is today."
+    "description": "Text displayed when relative date is today.",
+    "message": "Closes today at {time}"
   },
   "kKdcZT": {
-    "defaultMessage": "Bilingual advanced",
-    "description": "The language requirement is bilingual advanced."
+    "description": "The language requirement is bilingual advanced.",
+    "message": "Bilingual advanced"
   },
   "kg28xx": {
-    "defaultMessage": "You are missing a required field: French - Your impact",
-    "description": "Error message that Your Impact in French must be filled"
+    "description": "Error message that Your Impact in French must be filled",
+    "message": "You are missing a required field: French - Your impact"
+  },
+  "kjX7mF": {
+    "description": "Message on Admin side when user not filled RoleSalary section.",
+    "message": "No information has been provided."
   },
   "kwaeXP": {
-    "defaultMessage": "Availability, willingness and ability to work overtime (short notice)",
-    "description": "The operational requirement described as occasional overtime."
+    "description": "The operational requirement described as occasional overtime.",
+    "message": "Availability, willingness and ability to work overtime (short notice)"
   },
   "kxseH4": {
-    "defaultMessage": "Technical skills",
-    "description": "Tab name for a list of technical skills"
+    "description": "Tab name for a list of technical skills",
+    "message": "Technical skills"
   },
   "l/MbFR": {
-    "defaultMessage": "Edit My Hiring Pools",
-    "description": "Text on link to update a users hiring pools."
+    "description": "Text on link to update a users hiring pools.",
+    "message": "Edit My Hiring Pools"
   },
   "l/jGX9": {
-    "defaultMessage": "I would consider accepting a job that:",
-    "description": "Label for what conditions a user will accept, followed by a colon"
+    "description": "Label for what conditions a user will accept, followed by a colon",
+    "message": "I would consider accepting a job that:"
   },
   "l1cou8": {
-    "defaultMessage": "Government Information",
-    "description": "Title of the Government Information content section"
+    "description": "Title of the Government Information content section",
+    "message": "Government Information"
   },
   "l27ekQ": {
-    "defaultMessage": "{skillsLength} Skills",
-    "description": "Pluralization for zero or multiple skills"
+    "description": "Pluralization for zero or multiple skills",
+    "message": "{skillsLength} Skills"
   },
   "l7Hif/": {
-    "defaultMessage": "Selected skills",
-    "description": "Section header for a list of skills selected"
+    "description": "Section header for a list of skills selected",
+    "message": "Selected skills"
   },
   "lDeaXK": {
-    "defaultMessage": "Availability, willingness and ability to work overtime (scheduled)",
-    "description": "The operational requirement described as scheduled overtime."
+    "description": "The operational requirement described as scheduled overtime.",
+    "message": "Availability, willingness and ability to work overtime (scheduled)"
   },
   "lr2+2R": {
-    "defaultMessage": "Other",
-    "description": "declaring one to be neither a citizen or permanent resident of Canada"
+    "description": "declaring one to be neither a citizen or permanent resident of Canada",
+    "message": "Other"
   },
   "lsFH+y": {
-    "defaultMessage": "No options",
-    "description": "Message shown in options dropdown when Select field has no options."
+    "description": "Message shown in options dropdown when Select field has no options.",
+    "message": "No options"
   },
   "lx9NFI": {
-    "defaultMessage": "Qualified Available",
-    "description": "The pool candidate's status is Qualified Available"
+    "description": "The pool candidate's status is Qualified Available",
+    "message": "Qualified Available"
   },
   "m1eQrS": {
-    "defaultMessage": "Canada.ca",
-    "description": "Alt text for the Canada logo link in the Footer."
+    "description": "Alt text for the Canada logo link in the Footer.",
+    "message": "Canada.ca"
   },
   "m4v2w3": {
-    "defaultMessage": "Open to opportunities",
-    "description": "Job Looking Status described as Actively looking."
+    "description": "Job Looking Status described as Actively looking.",
+    "message": "Open to opportunities"
   },
   "mDOWWQ": {
-    "defaultMessage": "Submitting",
-    "description": "Default text for submitting button."
+    "description": "Default text for submitting button.",
+    "message": "Submitting"
   },
   "mFKg18": {
-    "defaultMessage": "Indigenous Identity",
-    "description": "Group for when someone indicates they are indigenous"
+    "description": "Group for when someone indicates they are indigenous",
+    "message": "Indigenous Identity"
   },
   "mLwm2+": {
-    "defaultMessage": "Yukon",
-    "description": "Yukon selection for province or territory input"
+    "description": "Yukon selection for province or territory input",
+    "message": "Yukon"
   },
   "mMw73T": {
-    "defaultMessage": "Level 1: Technician",
-    "description": "The name of the Technician classification role."
+    "description": "The name of the Technician classification role.",
+    "message": "Level 1: Technician"
   },
   "mhO12a": {
-    "defaultMessage": "Work weekends",
-    "description": "The operational requirement described as work weekends. (short-form for limited space)"
+    "description": "The operational requirement described as work weekends. (short-form for limited space)",
+    "message": "Work weekends"
   },
   "mtFK6A": {
-    "defaultMessage": "Email:",
-    "description": "Email label and colon"
+    "description": "Email label and colon",
+    "message": "Email:"
   },
   "mv7JO3": {
-    "defaultMessage": "Other",
-    "description": "The publishing group called Other"
+    "description": "The publishing group called Other",
+    "message": "Other"
   },
   "n80lVV": {
-    "defaultMessage": "No name provided",
-    "description": "Fallback for name value"
+    "description": "Fallback for name value",
+    "message": "No name provided"
   },
   "nPKPFa": {
-    "defaultMessage": "You are missing a required field: Publishing group",
-    "description": "Error message that the pool advertisement must have publishing group filled."
+    "description": "Error message that the pool advertisement must have publishing group filled.",
+    "message": "You are missing a required field: Publishing group"
   },
   "nrWEuL": {
-    "defaultMessage": "<strong>Inactive</strong> - I do not currently want to be contacted for job opportunities",
-    "description": "Job Looking Status described as Inactive."
+    "description": "Job Looking Status described as Inactive.",
+    "message": "<strong>Inactive</strong> - I do not currently want to be contacted for job opportunities"
   },
   "nu3Zyc": {
-    "defaultMessage": "Level 4: Manager",
-    "description": "The name of the Senior advisor role."
+    "description": "The name of the Senior advisor role.",
+    "message": "Level 4: Manager"
   },
   "nv2kXl": {
-    "defaultMessage": "Masters Degree",
-    "description": "Masters Degree selection for education type input"
+    "description": "Masters Degree selection for education type input",
+    "message": "Masters Degree"
   },
   "ny/ddo": {
-    "defaultMessage": "Department:",
-    "description": "Label for applicant's Government of Canada department"
+    "description": "Label for applicant's Government of Canada department",
+    "message": "Department:"
   },
   "o5J75O": {
-    "defaultMessage": "IT-04 (Senior advisor)",
-    "description": "The name of the Senior advisor classification with group and level."
+    "description": "The name of the Senior advisor classification with group and level.",
+    "message": "IT-04 (Senior advisor)"
   },
   "oANrhM": {
-    "defaultMessage": "Community",
-    "description": "The scope of the award was within the community."
+    "description": "The scope of the award was within the community.",
+    "message": "Community"
   },
   "oC/GRF": {
-    "defaultMessage": "You do not have any experiences attached to this skill",
-    "description": "The skill is not attached to any experience"
+    "description": "The skill is not attached to any experience",
+    "message": "You do not have any experiences attached to this skill"
   },
   "oGXgxJ": {
-    "defaultMessage": "Close alert",
-    "description": "Text for the close button on alerts"
+    "description": "Text for the close button on alerts",
+    "message": "Close alert"
   },
   "oMyc4e": {
-    "defaultMessage": "Citizen or Resident",
-    "description": "Priority text for citizens of canada"
+    "description": "Priority text for citizens of canada",
+    "message": "Citizen or Resident"
   },
   "oSa0Aa": {
-    "defaultMessage": "Error alert:",
-    "description": "Descriptor for an error alert"
+    "description": "Descriptor for an error alert",
+    "message": "Error alert:"
   },
   "oU4OmU": {
-    "defaultMessage": "<strong>Ontario Region:</strong> excluding Ottawa.",
-    "description": "The work region of Canada described as Ontario."
+    "description": "The work region of Canada described as Ontario.",
+    "message": "<strong>Ontario Region:</strong> excluding Ottawa."
   },
   "oU8C65": {
-    "defaultMessage": "Veteran",
-    "description": "Priority text for veterans"
+    "description": "Priority text for veterans",
+    "message": "Veteran"
   },
   "obD2sw": {
-    "defaultMessage": "Required transferable skills",
-    "description": "Title that appears in transferable skills section on their profile."
+    "description": "Title that appears in transferable skills section on their profile.",
+    "message": "Required transferable skills"
   },
   "om3i0o": {
-    "defaultMessage": "Edit My Status",
-    "description": "Text on link to update a users status."
+    "description": "Text on link to update a users status.",
+    "message": "Edit My Status"
   },
   "omDlZN": {
-    "defaultMessage": "Thesis: {thesisTitle}",
-    "description": "Thesis, if applicable"
+    "description": "Thesis, if applicable",
+    "message": "Thesis: {thesisTitle}"
   },
   "ovtI5X": {
-    "defaultMessage": "Transport equipment up to 20kg",
-    "description": "The operational requirement described as transport equipment up to 20kg. (short-form for limited space)"
+    "description": "The operational requirement described as transport equipment up to 20kg. (short-form for limited space)",
+    "message": "Transport equipment up to 20kg"
   },
   "p8Gi1k": {
-    "defaultMessage": "Edit Work Preferences",
-    "description": "Text on link to update a users work preferences."
+    "description": "Text on link to update a users work preferences.",
+    "message": "Edit Work Preferences"
   },
   "pLlu65": {
-    "defaultMessage": "Screened Out Assessment",
-    "description": "The pool candidate's status is Screened Out Assessment."
+    "description": "The pool candidate's status is Screened Out Assessment.",
+    "message": "Screened Out Assessment"
   },
   "pPPm5b": {
-    "defaultMessage": "Me",
-    "description": "The award was given to me."
+    "description": "The award was given to me.",
+    "message": "Me"
   },
   "pV96Xv": {
-    "defaultMessage": "Education experiences",
-    "description": "Heading for education experiences in experience by type listing"
+    "description": "Heading for education experiences in experience by type listing",
+    "message": "Education experiences"
   },
   "pbXAOp": {
-    "defaultMessage": "Show {numOfRows}",
-    "description": "Options for how many rows to show on admin table"
+    "description": "Options for how many rows to show on admin table",
+    "message": "Show {numOfRows}"
   },
   "pg1S01": {
-    "defaultMessage": "Skip list of skills",
-    "description": "Link text to skip the list of add skill links"
+    "description": "Link text to skip the list of add skill links",
+    "message": "Skip list of skills"
   },
   "phbDSx": {
-    "defaultMessage": "Edit Experience",
-    "description": "Edit Experience button label"
+    "description": "Edit Experience button label",
+    "message": "Edit Experience"
   },
   "prkkM+": {
-    "defaultMessage": "Done",
-    "description": "The search status is Done."
+    "description": "The search status is Done.",
+    "message": "Done"
   },
   "q3Gl23": {
-    "defaultMessage": "Second language level:",
-    "description": "Estimated skill in second language, followed by a colon"
+    "description": "Estimated skill in second language, followed by a colon",
+    "message": "Second language level:"
   },
   "q7bz0J": {
-    "defaultMessage": "No",
-    "description": "Message for when a value is false"
+    "description": "Message for when a value is false",
+    "message": "No"
   },
   "qT9sS0": {
-    "defaultMessage": "French positions",
-    "description": "French Positions message"
+    "description": "French Positions message",
+    "message": "French positions"
   },
   "qfQx7T": {
-    "defaultMessage": "Phd",
-    "description": "Phd selection for education type input"
+    "description": "Phd selection for education type input",
+    "message": "Phd"
   },
   "qfioSi": {
-    "defaultMessage": "I have a <strong>term</strong> position.",
-    "description": "Term selection for government employee type."
+    "description": "Term selection for government employee type.",
+    "message": "I have a <strong>term</strong> position."
   },
   "qmEyxS": {
-    "defaultMessage": "The pool must have a closing date after today.",
-    "description": "Error message that the pool closing date isn't in the future."
+    "description": "Error message that the pool closing date isn't in the future.",
+    "message": "The pool must have a closing date after today."
   },
   "qnYbyw": {
-    "defaultMessage": "requires me to <strong>travel</strong>.",
-    "description": "The operational requirement described as travel as required."
+    "description": "The operational requirement described as travel as required.",
+    "message": "requires me to <strong>travel</strong>."
   },
   "quLfED": {
-    "defaultMessage": "We have encountered an unknown error while processing your request.",
-    "description": "Body text for the unexpected error page."
+    "description": "Body text for the unexpected error page.",
+    "message": "We have encountered an unknown error while processing your request."
   },
   "r7lf0k": {
-    "defaultMessage": "No last name provided",
-    "description": "Fallback for last name value"
+    "description": "Fallback for last name value",
+    "message": "No last name provided"
   },
   "r7x5H3": {
-    "defaultMessage": "N/A",
-    "description": "Message displayed when specific information is not applicable"
+    "description": "Message displayed when specific information is not applicable",
+    "message": "N/A"
   },
   "rGTGvl": {
-    "defaultMessage": "Submitted",
-    "description": "Default text for submitted button."
+    "description": "Default text for submitted button.",
+    "message": "Submitted"
   },
   "rQwIDB": {
-    "defaultMessage": "Select...",
-    "description": "Default placeholder shown when Select field has nothing actively selected."
+    "description": "Default placeholder shown when Select field has nothing actively selected.",
+    "message": "Select..."
+  },
+  "rSymh2": {
+    "description": "Preferred Language for exams label and colon",
+    "message": "Preferred Written Exam Language:"
   },
   "rYodJu": {
-    "defaultMessage": "Indeterminate duration (permanent)",
-    "description": "Duration that is permanent"
+    "description": "Duration that is permanent",
+    "message": "Indeterminate duration (permanent)"
   },
   "rcI/H3": {
-    "defaultMessage": "This skill has the following related experiences:",
-    "description": "An introduction to a list of experiences associated with a skill"
+    "description": "An introduction to a list of experiences associated with a skill",
+    "message": "This skill has the following related experiences:"
   },
   "rlq4uZ": {
-    "defaultMessage": "Technical Skills",
-    "description": "The skill is considered technical."
+    "description": "The skill is considered technical.",
+    "message": "Technical Skills"
   },
   "rsxrMs": {
-    "defaultMessage": "Remove {label}",
-    "description": "Button text for a dismissible chip"
+    "description": "Button text for a dismissible chip",
+    "message": "Remove {label}"
   },
   "s1h7Mc": {
-    "defaultMessage": "Current Location:",
-    "description": "Current Location label and colon"
+    "description": "Current Location label and colon",
+    "message": "Current Location:"
   },
   "s3FrzP": {
-    "defaultMessage": "Are you sure you would like to logout?",
-    "description": "Question displayed when authenticated user attempts to logout"
+    "description": "Question displayed when authenticated user attempts to logout",
+    "message": "Are you sure you would like to logout?"
   },
   "s4y1nI": {
-    "defaultMessage": "\"I identify as a member of a visible minority\"",
-    "description": "Statement for when someone indicates they are a visible minority"
+    "description": "Statement for when someone indicates they are a visible minority",
+    "message": "\"I identify as a member of a visible minority\""
   },
   "sNUWqY": {
-    "defaultMessage": "Post Doctoral Fellowship",
-    "description": "Post Doctoral Fellowship selection for education type input"
+    "description": "Post Doctoral Fellowship selection for education type input",
+    "message": "Post Doctoral Fellowship"
   },
   "sVsZmT": {
-    "defaultMessage": "<a>Reach out to our support team</a> if you have any questions.",
-    "description": "Telling users to email support team with any questions about errors"
+    "description": "Telling users to email support team with any questions about errors",
+    "message": "<a>Reach out to our support team</a> if you have any questions."
   },
   "shPV27": {
-    "defaultMessage": "Completed an official GoC evaluation:",
-    "description": "Completed a government of canada abbreviation evaluation label and colon"
+    "description": "Completed a government of canada abbreviation evaluation label and colon",
+    "message": "Completed an official GoC evaluation:"
   },
   "spP+Tz": {
-    "defaultMessage": "Nunavut",
-    "description": "Nunavut selection for province or territory input"
+    "description": "Nunavut selection for province or territory input",
+    "message": "Nunavut"
   },
   "swTjNd": {
-    "defaultMessage": "Canadian Citizen",
-    "description": "user is a Canadian citizen"
+    "description": "user is a Canadian citizen",
+    "message": "Canadian Citizen"
   },
   "swugkW": {
-    "defaultMessage": "Priority entitlement:",
-    "description": "Label for applicant's priority entitlement status"
+    "description": "Label for applicant's priority entitlement status",
+    "message": "Priority entitlement:"
   },
   "t4F/0R": {
-    "defaultMessage": "You are missing a required field: Security requirement",
-    "description": "Error message that the pool advertisement must have a security clearance."
+    "description": "Error message that the pool advertisement must have a security clearance.",
+    "message": "You are missing a required field: Security requirement"
   },
   "tW4k56": {
-    "defaultMessage": "You are missing a required field: English - Your work",
-    "description": "Error message that Work Tasks in English must be filled"
+    "description": "Error message that Work Tasks in English must be filled",
+    "message": "You are missing a required field: English - Your work"
   },
   "tXze8h": {
-    "defaultMessage": "Quebec",
-    "description": "Quebec selection for province or territory input"
+    "description": "Quebec selection for province or territory input",
+    "message": "Quebec"
   },
   "tgt0og": {
-    "defaultMessage": "<strong>British Columbia Region</strong>",
-    "description": "The work region of Canada described as British Columbia."
+    "description": "The work region of Canada described as British Columbia.",
+    "message": "<strong>British Columbia Region</strong>"
   },
   "u+NuHm": {
-    "defaultMessage": "Go back to my profile",
-    "description": "Link text for button to return to user profile"
+    "description": "Link text for button to return to user profile",
+    "message": "Go back to my profile"
   },
   "uHx3G7": {
-    "defaultMessage": "any duration. (short term, long term, or indeterminate duration)",
-    "description": "Label displayed on Work Preferences form for any duration option"
+    "description": "Label displayed on Work Preferences form for any duration option",
+    "message": "any duration. (short term, long term, or indeterminate duration)"
+  },
+  "uMzeiF": {
+    "description": "Title of the Role and salary expectations section",
+    "message": "Role and salary expectations"
   },
   "ubXVBC": {
-    "defaultMessage": "<strong>Atlantic Region:</strong> New Brunswick, Newfoundland and Labrador, Nova Scotia and Prince Edward Island.",
-    "description": "The work region of Canada described as Atlantic."
+    "description": "The work region of Canada described as Atlantic.",
+    "message": "<strong>Atlantic Region:</strong> New Brunswick, Newfoundland and Labrador, Nova Scotia and Prince Edward Island."
   },
   "ufSiRU": {
-    "defaultMessage": "Not found",
-    "description": "Title displayed when an item cannot be found."
+    "description": "Title displayed when an item cannot be found.",
+    "message": "Not found"
   },
   "ugRTOW": {
-    "defaultMessage": "No information has been provided.",
-    "description": "Message on Admin side when user not filled GovernmentInformation section."
+    "description": "Message on Admin side when user not filled GovernmentInformation section.",
+    "message": "No information has been provided."
   },
   "uj33ws": {
-    "defaultMessage": "I am an active member of the CAF",
-    "description": "declare self to be a CAF member"
+    "description": "declare self to be a CAF member",
+    "message": "I am an active member of the CAF"
   },
   "v6T4Y0": {
-    "defaultMessage": "This field cannot use dates in the future.",
-    "description": "Error message that the date cannot be in the future."
+    "description": "Error message that the date cannot be in the future.",
+    "message": "This field cannot use dates in the future."
   },
   "vD6Uia": {
-    "defaultMessage": "GC Digital Talent",
-    "description": "Default title for the site"
+    "description": "Default title for the site",
+    "message": "GC Digital Talent"
   },
   "vDrJp6": {
-    "defaultMessage": "Availability, willingness and ability to work 24/7 on-call status.",
-    "description": "The operational requirement described as 24/7 on-call."
+    "description": "The operational requirement described as 24/7 on-call.",
+    "message": "Availability, willingness and ability to work 24/7 on-call status."
   },
   "vFMPHW": {
-    "defaultMessage": "English positions",
-    "description": "English Positions message"
+    "description": "English Positions message",
+    "message": "English positions"
   },
   "vGENdP": {
-    "defaultMessage": "Info alert:",
-    "description": "Descriptor for an info alert"
+    "description": "Descriptor for an info alert",
+    "message": "Info alert:"
   },
   "vV0SDz": {
-    "defaultMessage": "{title} at {organization}",
-    "description": "Title at organization"
+    "description": "Title at organization",
+    "message": "{title} at {organization}"
   },
   "vgxxk0": {
-    "defaultMessage": "Veteran",
-    "description": "user is a CAF veteran"
+    "description": "user is a CAF veteran",
+    "message": "Veteran"
   },
   "vpAafL": {
-    "defaultMessage": "You have not identified as a member of any employment equity groups.",
-    "description": "Message indicating the user has not been marked as part of an equity group, Ignore things in <> please."
+    "description": "Message indicating the user has not been marked as part of an equity group, Ignore things in <> please.",
+    "message": "You have not identified as a member of any employment equity groups."
   },
   "vvtqRv": {
-    "defaultMessage": "Availability, willingness and ability to work overtime (Regularly).",
-    "description": "The operational requirement described as regular overtime."
-  },
-  "vyQv+i": {
-    "defaultMessage": "Error: skill name not found",
-    "description": "Error message when cmo asset name is not found on request page."
+    "description": "The operational requirement described as regular overtime.",
+    "message": "Availability, willingness and ability to work overtime (Regularly)."
   },
   "w+L6oa": {
-    "defaultMessage": "By Date",
-    "description": "Tab title for experiences sorted by date in applicant profile."
+    "description": "Tab title for experiences sorted by date in applicant profile.",
+    "message": "By Date"
   },
   "w2Jpt8": {
-    "defaultMessage": "Student",
-    "description": "Simple student selection for government employee type."
+    "description": "Simple student selection for government employee type.",
+    "message": "Student"
   },
   "w2tWfH": {
-    "defaultMessage": "You are missing a required field: Stream/Job Titles",
-    "description": "Error message that the pool advertisement must have a stream."
+    "description": "Error message that the pool advertisement must have a stream.",
+    "message": "You are missing a required field: Stream/Job Titles"
   },
   "w6ZMZl": {
-    "defaultMessage": "Two",
-    "description": "Placeholder text for second toggle group option"
+    "description": "Placeholder text for second toggle group option",
+    "message": "Two"
   },
   "w6jDaJ": {
-    "defaultMessage": "These required skills are missing information:",
-    "description": "Text that appears when a user is missing required skills on their profile."
+    "description": "Text that appears when a user is missing required skills on their profile.",
+    "message": "These required skills are missing information:"
   },
   "wCft6M": {
-    "defaultMessage": "British Columbia",
-    "description": "The work region of Canada described as British Columbia."
+    "description": "The work region of Canada described as British Columbia.",
+    "message": "British Columbia"
   },
   "wD5ZuD": {
-    "defaultMessage": "National",
-    "description": "The scope of the award was national."
+    "description": "The scope of the award was national.",
+    "message": "National"
   },
   "wFZLxf": {
-    "defaultMessage": "IT-03 (Team leader)",
-    "description": "The name of the Team leader Analyst classification with group and level."
+    "description": "The name of the Team leader Analyst classification with group and level.",
+    "message": "IT-03 (Team leader)"
   },
   "wT3L9C": {
-    "defaultMessage": "French only",
-    "description": "The language ability is French only."
+    "description": "The language ability is French only.",
+    "message": "French only"
   },
   "wTAdQe": {
-    "defaultMessage": "{role} at {organization}",
-    "description": "Role at organization"
+    "description": "Role at organization",
+    "message": "{role} at {organization}"
   },
   "wtImjn": {
-    "defaultMessage": "\"I am Indigenous\"",
-    "description": "Statement for when someone indicates they are indigenous"
+    "description": "Statement for when someone indicates they are indigenous",
+    "message": "\"I am Indigenous\""
   },
   "x0FRH/": {
-    "defaultMessage": "I do not have a priority entitlement",
-    "description": "affirm no entitlement"
+    "description": "affirm no entitlement",
+    "message": "I do not have a priority entitlement"
   },
   "x5sy3j": {
-    "defaultMessage": "<strong>Prairie Region:</strong> Manitoba, Saskatchewan, Alberta.",
-    "description": "The work region of Canada described as Prairie."
+    "description": "The work region of Canada described as Prairie.",
+    "message": "<strong>Prairie Region:</strong> Manitoba, Saskatchewan, Alberta."
   },
   "xAxxmc": {
-    "defaultMessage": "Oops, you have some errors!",
-    "description": "Title for error summary on profile forms"
+    "description": "Title for error summary on profile forms",
+    "message": "Oops, you have some errors!"
   },
   "xCBinq": {
-    "defaultMessage": "Permanent Resident",
-    "description": "user is a permanent resident"
+    "description": "user is a permanent resident",
+    "message": "Permanent Resident"
   },
   "xNVsei": {
-    "defaultMessage": "{experienceLength} Experiences",
-    "description": "Pluralization for zero or multiple experiences"
+    "description": "Pluralization for zero or multiple experiences",
+    "message": "{experienceLength} Experiences"
   },
   "xUl9pz": {
-    "defaultMessage": "My Hiring Pools",
-    "description": "Title of the My Hiring Pools section"
+    "description": "Title of the My Hiring Pools section",
+    "message": "My Hiring Pools"
   },
   "xdojyj": {
-    "defaultMessage": "Policy and feedback",
-    "description": "Label for the policy, conditions and feedback navigation"
+    "description": "Label for the policy, conditions and feedback navigation",
+    "message": "Policy and feedback"
   },
   "xjtRjr": {
-    "defaultMessage": "No information has been provided.",
-    "description": "Message on Admin side when user not filled language section."
+    "description": "Message on Admin side when user not filled language section.",
+    "message": "No information has been provided."
   },
   "xqacUI": {
-    "defaultMessage": "My Team",
-    "description": "The award was given to my team."
+    "description": "The award was given to my team.",
+    "message": "My Team"
   },
   "xr36aa": {
-    "defaultMessage": "Information and Data Functions",
-    "description": "Pool Stream described as Information and Data Functions."
+    "description": "Pool Stream described as Information and Data Functions.",
+    "message": "Information and Data Functions"
   },
   "y5u8P0": {
-    "defaultMessage": "Under Assessment",
-    "description": "The pool candidate's status is Under Assessment."
+    "description": "The pool candidate's status is Under Assessment.",
+    "message": "Under Assessment"
   },
   "yK/VlQ": {
-    "defaultMessage": "Saskatchewan",
-    "description": "Saskatchewan selection for province or territory input"
+    "description": "Saskatchewan selection for province or territory input",
+    "message": "Saskatchewan"
   },
   "yRxy3a": {
-    "defaultMessage": "Qualified Withdrew",
-    "description": "The pool candidate's status is Qualified Withdrew."
+    "description": "The pool candidate's status is Qualified Withdrew.",
+    "message": "Qualified Withdrew"
   },
   "ylHC90": {
-    "defaultMessage": "Loading...",
-    "description": "Message shown in options dropdown when Select field is loading options."
+    "description": "Message shown in options dropdown when Select field is loading options.",
+    "message": "Loading..."
   },
   "yrLV+n": {
-    "defaultMessage": "Draft",
-    "description": "Draft pool advertisement status"
+    "description": "Draft pool advertisement status",
+    "message": "Draft"
   },
   "z/J4uL": {
-    "defaultMessage": "Employee status:",
-    "description": "Label for applicant's employee status"
+    "description": "Label for applicant's employee status",
+    "message": "Employee status:"
   },
   "z3QvIv": {
-    "defaultMessage": "Other skills",
-    "description": "Title that appears for skills not in one of the other categories on the users profile."
+    "description": "Title that appears for skills not in one of the other categories on the users profile.",
+    "message": "Other skills"
   },
   "z7UVe6": {
-    "defaultMessage": "This field must have less than {value} words.",
-    "description": "Error Message displayed on word counter when user passes the limit."
+    "description": "Error Message displayed on word counter when user passes the limit.",
+    "message": "This field must have less than {value} words."
   },
   "zKjtAa": {
-    "defaultMessage": "Northwest Territories",
-    "description": "Northwest Territories selection for province or territory input"
+    "description": "Northwest Territories selection for province or territory input",
+    "message": "Northwest Territories"
   },
   "zVm0jL": {
-    "defaultMessage": "IT-01 (Technician)",
-    "description": "The name of the Technician classification with group and level."
+    "description": "The name of the Technician classification with group and level.",
+    "message": "IT-01 (Technician)"
   },
   "zXHYAs": {
-    "defaultMessage": "My Project",
-    "description": "The award was given to my project."
+    "description": "The award was given to my project.",
+    "message": "My Project"
   },
   "ziaV/E": {
-    "defaultMessage": "Various (English or French)",
-    "description": "The language requirement is various."
+    "description": "The language requirement is various.",
+    "message": "Various (English or French)"
   },
   "zvUFdA": {
-    "defaultMessage": "Security",
-    "description": "Pool Stream described as Security."
+    "description": "Pool Stream described as Security.",
+    "message": "Security"
   }
 }
