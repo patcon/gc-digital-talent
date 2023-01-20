@@ -1,7 +1,4 @@
 query getCreateAccountFormData {
-  me {
-    id
-  }
   classifications {
     id
     name {
@@ -30,6 +27,8 @@ mutation CreateAccount($id: ID!, $user: UpdateUserAsUserInput!) {
     firstName
     lastName
     preferredLang
+    preferredLanguageForInterview
+    preferredLanguageForExam
     isGovEmployee
     govEmployeeType
     isProfileComplete
