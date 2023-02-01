@@ -1,0 +1,14 @@
+diff --git a/node_modules/react-hook-form/dist/types/form.d.ts b/node_modules/react-hook-form/dist/types/form.d.ts
+index 2682c98..a89b273 100644
+--- a/node_modules/react-hook-form/dist/types/form.d.ts
++++ b/node_modules/react-hook-form/dist/types/form.d.ts
+@@ -47,6 +47,9 @@ export declare type ChangeHandler = (event: {
+     type?: any;
+ }) => Promise<void | boolean>;
+ export declare type DelayCallback = (wait: number) => void;
++export declare type AsyncDefaultValues<TFieldValues> = (
++  payload?: unknown,
++) => Promise<TFieldValues>;
+ export declare type UseFormProps<TFieldValues extends FieldValues = FieldValues, TContext = any> = Partial<{
+     mode: Mode;
+     reValidateMode: Exclude<Mode, 'onTouched' | 'all'>;
